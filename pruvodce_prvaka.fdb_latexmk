@@ -1,0 +1,27 @@
+# Fdb version 4
+["xdvipdfmx"] 1710522758.69657 "pruvodce_prvaka.xdv" "pruvodce_prvaka.pdf" "pruvodce_prvaka" 1710522758.83538 0
+  "pruvodce_prvaka.xdv" 1710522758.67475 444 6186ba3cb8a5f6e2dcba9392e35a5524 "xelatex"
+  (generated)
+  "pruvodce_prvaka.pdf"
+  (rewritten before read)
+["xelatex"] 1710522758.42649 "pruvodce_prvaka.tex" "pruvodce_prvaka.xdv" "pruvodce_prvaka" 1710522758.83502 0
+  "/usr/share/texlive/texmf-dist/tex/generic/babel-czech/czech.ldf" 1367878866 15910 20b36fee6c6cdcfa90232891da7a9f34 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty" 1676321701 151363 1f5971af3ef874d432e8fb43e0edb71d ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/locale/cs/babel-cs.ini" 1663444672 4470 8926ee4ba8dab2461380eb9c70b49d23 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/locale/cs/babel-czech.tex" 1498512262 336 86d743381fe0d22390e59db0ebb6a6c9 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def" 1674507072 15021 cabe907ba6c6ed992c28d4aa9ddba361 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1359763108 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1689984000 20144 d5ecf0a5140c8d8d8b72cbe86e320eff ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1689984000 8448 c33a4e1cb35cee9b33c2b21033b73e39 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd" 1689984000 2430 8418b3f1835e588625becbcac4dbce56 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def" 1673989714 32346 879686206fa618f4f5073ad4bd48feda ""
+  "/usr/share/texlive/texmf-dist/tex/latex/preprint/fullpage.sty" 1137110595 2789 05b418f78b224ec872f5b11081138605 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1689984000 40900 887e0dc8cac988a9e9c574af364cf837 ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1710227421 10504765 b20f01bef7f5a61498f6d9a2541b2ba6 ""
+  "pruvodce_prvaka.aux" 1710522758.67475 150 ad9ae35641e0512796dabf172823c051 "xelatex"
+  "pruvodce_prvaka.tex" 1710522757.61774 132 3c4a75d6c0fc6d653844a02cab98e74a ""
+  (generated)
+  "pruvodce_prvaka.aux"
+  "pruvodce_prvaka.log"
+  "pruvodce_prvaka.xdv"
+  (rewritten before read)

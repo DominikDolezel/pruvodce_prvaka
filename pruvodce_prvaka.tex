@@ -2,7 +2,142 @@
 \usepackage{fullpage}
 \usepackage[czech]{babel}
 \usepackage{amsfonts}
+\usepackage[a5paper,margin=25pt]{geometry}
+\usepackage{fontspec}
+\usepackage{sectsty}
+\usepackage{xcolor}
+\usepackage{pagecolor}
+\usepackage{afterpage}
+\usepackage[many]{tcolorbox}
+\usepackage{setspace}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage[compact]{titlesec}
+
+\setlist[itemize]{noitemsep}
+
+\pagenumbering{gobble}
+
+\setstretch{1}
+
+% definuj jaroška barvy
+\definecolor{red}{cmyk}{0.15, 1, 0.85, 0}
+\definecolor{blue}{cmyk}{0.7, 0.2, 0, 0.25}
+
+% nastav jaroška fonty
+\newfontfamily\Kapitan{Kapitan-Medium}
+\allsectionsfont{\Kapitan}
+\setmainfont{OpenSans}
+
+% nastav hodnoty pro hezké boxíky
+\tcbset {
+    sharp corners,
+    colback = white,
+    before skip = 0.2cm,
+    after skip = 0.5cm
+}
+
+% definuj boxík
+\newtcolorbox{bluebox}{
+  colback = blue,
+  boxrule = 0pt
+}
+
+\newtcolorbox{nadpisbox}{
+  colback = red,
+  boxrule = 0pt,
+  grow to left by = -3.5cm,
+  grow to right by = -3.5cm
+}
+
+\newtcolorbox{redbox}{
+  colback = red,
+  boxrule = 0pt,
+  grow to left by = 25pt,
+  grow to right by = 25pt,
+  right = 22pt,
+  left = 22pt,
+  enlarge bottom by = -4pt
+}
+
+\newcommand{\nadpis}[1]{
+  \begin{nadpisbox}
+    \centering \section*{\textcolor{white}{#1}}
+  \end{nadpisbox}
+}
+
+\newcommand{\podnadpis}[1]{
+  \subsection*{\textcolor{red}{#1}}
+}
+
 
 \begin{document}
-test
+\begin{titlepage}
+  \newgeometry{margin=0pt}
+  \pagecolor{red}
+    \begin{center}
+      \vspace*{\fill}
+
+      \textcolor{white}{\fontsize{60}{60} \Kapitan Průvodce\\\vspace{0.2em}prváka}
+
+      \vspace*{\fill}
+      \textcolor{white}{\fontsize{20}{20} \Kapitan Jaroška}
+
+      \vspace{0.5em}
+
+      \begin{bluebox}
+        \centering \fontsize{15}{15} \Kapitan \textcolor{white}{2024/2025}
+      \end{bluebox}
+
+      \vspace{3em}
+
+    \end{center}
+\end{titlepage}
+\pagecolor{white}
+
+
+% mapa školy-
+Sem patří mapa školy.
+\newpage
+
+% kabinety
+Sem patří seznam kabinetů.
+\newpage
+
+\nadpis{Jak to u nás chodí?}
+\noindent \podnadpis{Dělení tříd}
+\begin{itemize}[leftmargin=10pt]
+  \item \textcolor{red}{\textbf{X.A}} --  \textbf{matematicky zaměřená třída}. Většina studentů už jde z tzv. nižšího gymnázia na Příční ulici (prima až kvarta), na vyšším se k nim následně připojí pár dalších studentů
+  \item \textcolor{red}{\textbf{X.B}} -- \textbf{všeobecná třída}, taky přicházejí z nižšího gymnázia
+  \item \textcolor{red}{\textbf{X.C}} -- \textbf{všeobecná třída}, druhý cizí jazyk je volitelný: vítězí většinou němčina, ale
+k dispozici je i španělština, francouzština a ruština
+  \item \textcolor{red}{\textbf{X.D}} -- \textbf{všeobecná třída}, druhý cizí jazyk může být pouze němčina
+\end{itemize}
+\podnadpis{IT}
+\begin{itemize}[leftmargin=10pt]
+  \item na začátku školního roku dostane každý student svoje přihlašovací údaje k~\textbf{elektronické třídnici EduPage}
+  \item také existuje trochu jiné ID, díky kterému se budeš moct \textbf{přihlašovat v informatice} k počítačům na školní síti a taky na \textbf{školní wifinu}
+\end{itemize}
+
+\begin{redbox}
+  \begin{itemize}[leftmargin=10pt]
+    \item[\textcolor{white}{\textbullet}] \textcolor{white}{trochu složitější je to pak s připojováním notebooků na školní wifi: jde to, ale těžko. Ideální je zajít za panem profesorem Blahou (jehož kabinet si můžeš najít na plánku školy) a poprosit ho o zpřístupnění. Trochu se ti pohrabe v notebooku a zařídí ti, že se bez problémů budeš moct připojit a psát si zápisky online třeba na OneNote. -- nelíbí se mi tento text}
+  \end{itemize}
+\end{redbox}
+\begin{itemize}[leftmargin=10pt]
+  \item  také existuje \textbf{studentský server Penguin} -- slouží primárně pro projekty studentů. Pokud tedy plánuješ třeba uspořádat školní akci, potřebuješ server pro svoji ZMP a nebo jen sháníš úložiště/pískoviště pro svoje vyžití, \textbf{nechceš platit hosting a nevadí ti trochu starší způsob přístupu k souborům}, obrať se na profesory informatiky, kteří tě pak můžou nasměrovat na \textbf{odpovědné správce serveru}; zpravidla to bývá \textbf{někdo ze studentstva}.
+\end{itemize}
+
+\podnadpis{Školní maily}
+\begin{itemize}[leftmargin=10pt]
+  \item každý profesor má založený \textbf{svůj školní mail ve tvaru prijmeni@jaroska.cz}, na kterém ho můžeš kontaktovat. S tímhle mailem se většinou nespleteš, ale pro sichr je vždycky lepší se přímo dotyčného profesora \textbf{zeptat, jestli náhodou nemá mail na jiné doméně}, kterou používá častěji -- díky tomu můžeš dostat rychlejší odpověď.
+  \item  a taky ti sem dáme pár důležitých mailů, které by se ti mohly hodit:
+  \begin{itemize}[leftmargin=0pt]
+    \item  ředitel: \textcolor{red}{\textbf{herman@jaroska.cz}}
+    \item statutární zástupce (ten ‘hlavní’): \textcolor{red}{\textbf{boucnik@jaroska.cz}}
+    \item zástupkyně (třeba na záležitosti s ISICem): \textcolor{red}{\textbf{sitarova@jaroska.cz}}
+    \item  hospodářka (té napiš při problémech se systémem obědů): \textcolor{red}{\textbf{turcanu@jaroska.cz}}
+  \end{itemize}
+\end{itemize}
+
 \end{document}

@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1710530802.05107 "pruvodce_prvaka.xdv" "pruvodce_prvaka.pdf" "pruvodce_prvaka" 1710530802.20679 0
-  "pruvodce_prvaka.xdv" 1710530801.96283 29004 b8f0eb17f358268d7a89e51535b36be7 "xelatex"
+["xdvipdfmx"] 1710611724.45639 "pruvodce_prvaka.xdv" "pruvodce_prvaka.pdf" "pruvodce_prvaka" 1710611724.62188 0
+  "pruvodce_prvaka.xdv" 1710611724.36322 76804 494192d6b4001116bc4ca15cd886a873 "xelatex"
   (generated)
   "pruvodce_prvaka.pdf"
   (rewritten before read)
-["xelatex"] 1710530801.1989 "pruvodce_prvaka.tex" "pruvodce_prvaka.xdv" "pruvodce_prvaka" 1710530802.20492 0
-  "/dev/null" 1710521208.64674 0 d41d8cd98f00b204e9800998ecf8427e ""
+["xelatex"] 1710611723.56461 "pruvodce_prvaka.tex" "pruvodce_prvaka.xdv" "pruvodce_prvaka" 1710611724.61948 0
+  "/dev/null" 1710574636.3429 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-czech/czech.ldf" 1367878866 15910 20b36fee6c6cdcfa90232891da7a9f34 ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty" 1676321701 151363 1f5971af3ef874d432e8fb43e0edb71d ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel/locale/cs/babel-cs.ini" 1663444672 4470 8926ee4ba8dab2461380eb9c70b49d23 ""
@@ -141,8 +141,8 @@
   "/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty" 1655066402 56148 51a9a8571c07b9921892ae11063ae853 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1689984000 40900 887e0dc8cac988a9e9c574af364cf837 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1710227421 10504765 b20f01bef7f5a61498f6d9a2541b2ba6 ""
-  "pruvodce_prvaka.aux" 1710530801.96283 150 22d2c26ed746504a73a2a01f6458ff1f "xelatex"
-  "pruvodce_prvaka.tex" 1710530800.75481 5250 2a0d91e04c4045607f27f27e5476bf2e ""
+  "pruvodce_prvaka.aux" 1710611724.36322 150 702eaa31bba81e4a3a0e5085c0f4e34d "xelatex"
+  "pruvodce_prvaka.tex" 1710611723.18821 11217 1751ccacaa92c5740c28264d14c60a87 ""
   (generated)
   "pruvodce_prvaka.aux"
   "pruvodce_prvaka.log"

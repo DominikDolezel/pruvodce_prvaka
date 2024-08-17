@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Fedora 40) (preloaded format=xelatex 2024.8.9)  17 AUG 2024 15:26
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Fedora 40) (preloaded format=xelatex 2024.8.9)  17 AUG 2024 18:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -592,6 +592,132 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidth=\dimen285
 \titlewidthlast=\dimen286
 \titlewidthfirst=\dimen287
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen288
+\captionmargin=\dimen289
+\caption@leftmargin=\dimen290
+\caption@rightmargin=\dimen291
+\caption@width=\dimen292
+\caption@indent=\dimen293
+\caption@parindent=\dimen294
+\caption@hangindent=\dimen295
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count334
+\c@continuedfloat=\count335
+) (/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+ (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2022-04-07 v2.34 Module abspage for zref (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2022-04-07 v2.34 Module base for zref (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+) (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\c@abspage=\count336
+Package zref Info: New property: abspage on input line 65.
+) (/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip59
+\c@mdf@globalstyle@cnt=\count337
+\mdf@skipabove@length=\skip60
+\mdf@skipbelow@length=\skip61
+\mdf@leftmargin@length=\skip62
+\mdf@rightmargin@length=\skip63
+\mdf@innerleftmargin@length=\skip64
+\mdf@innerrightmargin@length=\skip65
+\mdf@innertopmargin@length=\skip66
+\mdf@innerbottommargin@length=\skip67
+\mdf@splittopskip@length=\skip68
+\mdf@splitbottomskip@length=\skip69
+\mdf@outermargin@length=\skip70
+\mdf@innermargin@length=\skip71
+\mdf@linewidth@length=\skip72
+\mdf@innerlinewidth@length=\skip73
+\mdf@middlelinewidth@length=\skip74
+\mdf@outerlinewidth@length=\skip75
+\mdf@roundcorner@length=\skip76
+\mdf@footenotedistance@length=\skip77
+\mdf@userdefinedwidth@length=\skip78
+\mdf@needspace@length=\skip79
+\mdf@frametitleaboveskip@length=\skip80
+\mdf@frametitlebelowskip@length=\skip81
+\mdf@frametitlerulewidth@length=\skip82
+\mdf@frametitleleftmargin@length=\skip83
+\mdf@frametitlerightmargin@length=\skip84
+\mdf@shadowsize@length=\skip85
+\mdf@extratopheight@length=\skip86
+\mdf@subtitleabovelinewidth@length=\skip87
+\mdf@subtitlebelowlinewidth@length=\skip88
+\mdf@subtitleaboveskip@length=\skip89
+\mdf@subtitlebelowskip@length=\skip90
+\mdf@subtitleinneraboveskip@length=\skip91
+\mdf@subtitleinnerbelowskip@length=\skip92
+\mdf@subsubtitleabovelinewidth@length=\skip93
+\mdf@subsubtitlebelowlinewidth@length=\skip94
+\mdf@subsubtitleaboveskip@length=\skip95
+\mdf@subsubtitlebelowskip@length=\skip96
+\mdf@subsubtitleinneraboveskip@length=\skip97
+\mdf@subsubtitleinnerbelowskip@length=\skip98
+ (/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box126
+\mdf@footnotebox=\box127
+\mdf@splitbox@one=\box128
+\mdf@splitbox@two=\box129
+\mdf@splitbox@save=\box130
+\mdfsplitboxwidth=\skip99
+\mdfsplitboxtotalwidth=\skip100
+\mdfsplitboxheight=\skip101
+\mdfsplitboxdepth=\skip102
+\mdfsplitboxtotalheight=\skip103
+\mdfframetitleboxwidth=\skip104
+\mdfframetitleboxtotalwidth=\skip105
+\mdfframetitleboxheight=\skip106
+\mdfframetitleboxdepth=\skip107
+\mdfframetitleboxtotalheight=\skip108
+\mdffootnoteboxwidth=\skip109
+\mdffootnoteboxtotalwidth=\skip110
+\mdffootnoteboxheight=\skip111
+\mdffootnoteboxdepth=\skip112
+\mdffootnoteboxtotalheight=\skip113
+\mdftotallinewidth=\skip114
+\mdfboundingboxwidth=\skip115
+\mdfboundingboxtotalwidth=\skip116
+\mdfboundingboxheight=\skip117
+\mdfboundingboxdepth=\skip118
+\mdfboundingboxtotalheight=\skip119
+\mdf@freevspace@length=\skip120
+\mdf@horizontalwidthofbox@length=\skip121
+\mdf@verticalmarginwhole@length=\skip122
+\mdf@horizontalspaceofbox=\skip123
+\mdfsubtitleheight=\skip124
+\mdfsubsubtitleheight=\skip125
+\c@mdfcountframes=\count338
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count339
+\c@mdf@env@i=\count340
+\c@mdf@env@ii=\count341
+\c@mdf@zref@counter=\count342
+Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 
 Package fontspec Info: Could not resolve font "Kapitan-Medium/BI" (it probably
@@ -639,26 +765,26 @@ Package fontspec Info: Font family 'OpenSans(0)' created for font 'OpenSans'
  (./pruvodce_prvaka.aux)
 \openout1 = `pruvodce_prvaka.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 126.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -700,56 +826,58 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 76.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 76.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 76.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 76.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 76.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 76.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 76.
-LaTeX Font Info:    Redeclaring math accent \check on input line 76.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 76.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 76.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 76.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 76.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 126.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 126.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 126.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 126.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 126.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 126.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 126.
+LaTeX Font Info:    Redeclaring math accent \check on input line 126.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 126.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 126.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 126.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 126.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 76.
+(Font)              `operators' in the math version `normal' on input line 126.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/OpenSans(0)/m/n on input line 76.
+(Font)                  OT1/cmr/m/n --> TU/OpenSans(0)/m/n on input line 126.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 76.
+(Font)              `operators' in the math version `bold' on input line 126.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/OpenSans(0)/m/n on input line 76.
+(Font)                  OT1/cmr/bx/n --> TU/OpenSans(0)/m/n on input line 126.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/OpenSans(0)/m/n --> TU/OpenSans(0)/m/n on input line 76.
+(Font)                  TU/OpenSans(0)/m/n --> TU/OpenSans(0)/m/n on input line 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/OpenSans(0)/m/it on input line 76.
+(Font)                  OT1/cmr/m/it --> TU/OpenSans(0)/m/it on input line 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/OpenSans(0)/b/n on input line 76.
+(Font)                  OT1/cmr/bx/n --> TU/OpenSans(0)/b/n on input line 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 76.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 76.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 126.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/OpenSans(0)/m/n --> TU/OpenSans(0)/b/n on input line 76.
+(Font)                  TU/OpenSans(0)/m/n --> TU/OpenSans(0)/b/n on input line 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/OpenSans(0)/b/it on input line 76.
+(Font)                  OT1/cmr/bx/it --> TU/OpenSans(0)/b/it on input line 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 76.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 76.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 126.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a5paper
@@ -786,28 +914,53 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 
 ] [1] [2]
-Overfull \hbox (0.8492pt too wide) in paragraph at lines 120--121
+Overfull \hbox (0.8492pt too wide) in paragraph at lines 170--171
 []\TU/OpenSans(0)/m/n/10 na začátku školního roku dostane každý student svoje přihlašovací údaje k \TU/OpenSans(0)/b/n/10 elek-
  []
 
 
-Overfull \hbox (6.78438pt too wide) in paragraph at lines 141--142
+Overfull \hbox (6.78438pt too wide) in paragraph at lines 191--192
 []\TU/OpenSans(0)/m/n/10 hospodářka (té napiš při problémech se systémem obědů): []\TU/OpenSans(0)/b/n/10 turcanu@jaroska.cz[] 
  []
 
 [3] [4]
-Overfull \hbox (0.12013pt too wide) in paragraph at lines 259--261
+Overfull \hbox (0.12013pt too wide) in paragraph at lines 309--311
 \TU/OpenSans(0)/m/n/10 kladů (ačkoli normální headshots jsou v pohodě), divně oříznuté, rozmazané nebo
  []
 
-[5] [6] (./pruvodce_prvaka.aux) ) 
-Here is how much of TeX's memory you used:
- 22616 strings out of 476696
- 524946 string characters out of 5806956
- 1867018 words of memory out of 6000000
- 42476 multiletter control sequences out of 15000+600000
- 512495 words of font info for 58 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 99i,5n,104p,568b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
+[5]
+File: dulezite.jpg Graphic file (type bmp)
+<dulezite.jpg>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 330.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 330.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+File: dulezite.jpg Graphic file (type bmp)
+<dulezite.jpg>
+File: dulezite.jpg Graphic file (type bmp)
+<dulezite.jpg>
+ [6] [7] [8] [9]
+Overfull \hbox (0.98pt too wide) in paragraph at lines 422--422
+|[]\TU/OpenSans(0)/b/n/14.4 SOUTĚŽE[]|
+ []
 
-Output written on pruvodce_prvaka.xdv (7 pages, 78652 bytes).
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 432--436
+
+ []
+
+[11] (./pruvodce_prvaka.aux) ) 
+Here is how much of TeX's memory you used:
+ 24926 strings out of 476696
+ 571604 string characters out of 5806956
+ 1867018 words of memory out of 6000000
+ 44731 multiletter control sequences out of 15000+600000
+ 514218 words of font info for 69 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 99i,5n,104p,677b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on pruvodce_prvaka.xdv (12 pages, 165704 bytes).

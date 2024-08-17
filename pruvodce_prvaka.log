@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Fedora 40) (preloaded format=xelatex 2024.8.9)  17 AUG 2024 18:12
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Fedora 40) (preloaded format=xelatex 2024.8.9)  17 AUG 2024 19:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -765,26 +765,26 @@ Package fontspec Info: Font family 'OpenSans(0)' created for font 'OpenSans'
  (./pruvodce_prvaka.aux)
 \openout1 = `pruvodce_prvaka.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 126.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 154.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 154.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -826,56 +826,56 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 126.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 126.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 126.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 126.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 126.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 126.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 126.
-LaTeX Font Info:    Redeclaring math accent \check on input line 126.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 126.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 126.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 126.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 126.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 126.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 126.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 126.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 126.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 126.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 126.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 126.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 126.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 126.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 126.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 126.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 126.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 154.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 154.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 154.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 154.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 154.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 154.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 154.
+LaTeX Font Info:    Redeclaring math accent \check on input line 154.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 154.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 154.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 154.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 154.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 126.
+(Font)              `operators' in the math version `normal' on input line 154.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/OpenSans(0)/m/n on input line 126.
+(Font)                  OT1/cmr/m/n --> TU/OpenSans(0)/m/n on input line 154.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 126.
+(Font)              `operators' in the math version `bold' on input line 154.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/OpenSans(0)/m/n on input line 126.
+(Font)                  OT1/cmr/bx/n --> TU/OpenSans(0)/m/n on input line 154.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/OpenSans(0)/m/n --> TU/OpenSans(0)/m/n on input line 126.
+(Font)                  TU/OpenSans(0)/m/n --> TU/OpenSans(0)/m/n on input line 154.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/OpenSans(0)/m/it on input line 126.
+(Font)                  OT1/cmr/m/it --> TU/OpenSans(0)/m/it on input line 154.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/OpenSans(0)/b/n on input line 126.
+(Font)                  OT1/cmr/bx/n --> TU/OpenSans(0)/b/n on input line 154.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 126.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 154.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 126.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 154.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/OpenSans(0)/m/n --> TU/OpenSans(0)/b/n on input line 126.
+(Font)                  TU/OpenSans(0)/m/n --> TU/OpenSans(0)/b/n on input line 154.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/OpenSans(0)/b/it on input line 126.
+(Font)                  OT1/cmr/bx/it --> TU/OpenSans(0)/b/it on input line 154.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 126.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 154.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 126.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 154.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 *geometry* verbose mode - [ newgeometry ] result:
@@ -914,28 +914,28 @@ Package caption Info: End \AtBeginDocument code.
 
 
 ] [1] [2]
-Overfull \hbox (0.8492pt too wide) in paragraph at lines 170--171
+Overfull \hbox (0.8492pt too wide) in paragraph at lines 198--199
 []\TU/OpenSans(0)/m/n/10 na začátku školního roku dostane každý student svoje přihlašovací údaje k \TU/OpenSans(0)/b/n/10 elek-
  []
 
 
-Overfull \hbox (6.78438pt too wide) in paragraph at lines 191--192
+Overfull \hbox (6.78438pt too wide) in paragraph at lines 219--220
 []\TU/OpenSans(0)/m/n/10 hospodářka (té napiš při problémech se systémem obědů): []\TU/OpenSans(0)/b/n/10 turcanu@jaroska.cz[] 
  []
 
 [3] [4]
-Overfull \hbox (0.12013pt too wide) in paragraph at lines 309--311
+Overfull \hbox (0.12013pt too wide) in paragraph at lines 337--339
 \TU/OpenSans(0)/m/n/10 kladů (ačkoli normální headshots jsou v pohodě), divně oříznuté, rozmazané nebo
  []
 
 [5]
 File: dulezite.jpg Graphic file (type bmp)
 <dulezite.jpg>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 330.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 356.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 330.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 356.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -944,23 +944,23 @@ File: dulezite.jpg Graphic file (type bmp)
 File: dulezite.jpg Graphic file (type bmp)
 <dulezite.jpg>
  [6] [7] [8] [9]
-Overfull \hbox (0.98pt too wide) in paragraph at lines 422--422
+Overfull \hbox (0.98pt too wide) in paragraph at lines 448--448
 |[]\TU/OpenSans(0)/b/n/14.4 SOUTĚŽE[]|
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 432--436
+Underfull \hbox (badness 10000) in paragraph at lines 458--462
 
  []
 
-[11] (./pruvodce_prvaka.aux) ) 
+[11] [12] [13] (./pruvodce_prvaka.aux) ) 
 Here is how much of TeX's memory you used:
- 24926 strings out of 476696
- 571604 string characters out of 5806956
+ 24941 strings out of 476696
+ 571939 string characters out of 5806956
  1867018 words of memory out of 6000000
- 44731 multiletter control sequences out of 15000+600000
- 514218 words of font info for 69 fonts, out of 8000000 for 9000
+ 44743 multiletter control sequences out of 15000+600000
+ 514242 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,5n,104p,677b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on pruvodce_prvaka.xdv (12 pages, 165704 bytes).
+Output written on pruvodce_prvaka.xdv (14 pages, 174860 bytes).

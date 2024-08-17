@@ -28,6 +28,7 @@
 \definecolor{red}{cmyk}{0.15, 1, 0.85, 0}
 \definecolor{blue}{cmyk}{0.7, 0.2, 0, 0.25}
 \definecolor{green}{cmyk}{0.7, 0, 0.5, 0.1}
+\definecolor{yellow}{cmyk}{0, 0.3, 0.7, 0.1}
 
 % nastav jaroška fonty
 \newfontfamily\Kapitan{Kapitan-Medium}
@@ -44,6 +45,16 @@
 % definuj boxík
 \newtcolorbox{bluebox}{
   colback = blue,
+  boxrule = 0pt,
+  grow to left by = 25pt,
+  grow to right by = 25pt,
+  right = 22pt,
+  left = 22pt,
+  enlarge bottom by = -4pt
+}
+
+\newtcolorbox{yellowbox}{
+  colback = yellow,
   boxrule = 0pt,
   grow to left by = 25pt,
   grow to right by = 25pt,
@@ -83,6 +94,13 @@
   grow to right by = -4.93cm
 }
 
+\newtcolorbox{nadpisboxy}{
+  colback = yellow,
+  boxrule = 0pt,
+  grow to left by = -3.2cm,
+  grow to right by = -3.2cm
+}
+
 \newtcolorbox{redbox}{
   colback = red,
   boxrule = 0pt,
@@ -111,6 +129,12 @@
   \end{nadpisboxs}
 }
 
+\newcommand{\nadpisy}[1]{
+  \begin{nadpisboxy}
+    \centering \section*{\textcolor{white}{#1}}
+  \end{nadpisboxy}
+}
+
 \newcommand{\podnadpis}[1]{
   \subsection*{\textcolor{red}{#1}}
 }
@@ -121,6 +145,10 @@
 
 \newcommand{\podnadpiss}[1]{
   \subsection*{\textcolor{green}{#1}}
+}
+
+\newcommand{\podnadpisy}[1]{
+  \subsection*{\textcolor{yellow}{#1}}
 }
 
 \begin{document}
@@ -322,8 +350,6 @@ Ačkoli nám do toho Covid v posledních letech házel vidle, jezdíme i na výl
 \end{itemize}
 
 \begin{redbox}
-
-
   \begin{minipage}{0.32\linewidth}
     \includegraphics[width=\linewidth]{dulezite.jpg}
     \centering \textcolor{white}{aa}
@@ -439,5 +465,53 @@ tegorií (který určitě není vyčerpávající). Jejich hlavní cenou je obvy
   sem patří seznam
   }
 \end{greenbox}
+\pagebreak
+
+\nadpisy{ZA HRANICEMI ŠKOLY}
+\noindent Ano, víme, na Jarošce je fajn! Ale kam si po ní jít vyčistit s kamarády hlavu nebo kde najít inspirativní prostředí na projekt? Na to máme skvělé kavárny v okolí. A~že jich je! Připravili jsme si tady výčet těch nejlepších (a na další dvojstránce máme jejich podrobnou mapku, abyste trefili i potmě).
+
+sem patří doporučení ig
+\pagebreak
+sem taky
+\pagebreak
+sem patří mapa lul
+\pagebreak
+
+\pagestyle{empty}
+\pagecolor{red}
+    \noindent\hspace{-3pt}\textcolor{white}{\fontsize{20}{20} \Kapitan Jaroška}
+
+    \vspace*{\fill}
+
+
+      \noindent\hspace{-3pt}\textcolor{white}{\fontsize{25}{25} \Kapitan Průvodce prváka. \colorbox{blue}{\rule[5pt]{0pt}{15pt}\large 2024/2025}}
+
+      \vspace{1em}
+
+      \noindent\textcolor{white}{\textbf{Vydáno Školním parlamentem Gymnázia Brno, tř. Kpt. Jaroše 14 v září 2024 nákladem 150 výtisků.}}
+
+      \vspace{1em}
+
+      \noindent \textcolor{white}{\textbf{Redakce: Dominik Doležel, Jan Romanovský}}
+
+      \vspace{1em}
+
+      \noindent \textcolor{white}{\textbf{Foto: xx}}
+
+      \vspace{1em}
+
+      \noindent \textcolor{white}{\textbf{Sazba a grafická úprava: Dominik Doležel}}
+
+      \vspace{1em}
+
+      \noindent \textcolor{white}{\textbf{Spolupráce: nikdo}}
+
+      \vspace{1em}
+
+      \noindent \textcolor{white}{\textbf{Účelová publikace -- výtisk je neprodejný.}}
+
+      \vspace{1em}
+
+      \noindent \textcolor{white}{\textbf{Vysázenu v \LaTeX u.}}
 
 \end{document}

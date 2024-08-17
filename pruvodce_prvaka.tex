@@ -36,7 +36,6 @@
 
 % nastav hodnoty pro hezké boxíky
 \tcbset {
-    sharp corners,
     colback = white,
     before skip = 0.2cm,
     after skip = 0.5cm
@@ -50,7 +49,8 @@
   grow to right by = 25pt,
   right = 22pt,
   left = 22pt,
-  enlarge bottom by = -4pt
+  enlarge bottom by = -4pt,
+  sharp corners
 }
 
 \newtcolorbox{yellowbox}{
@@ -60,7 +60,8 @@
   grow to right by = 25pt,
   right = 22pt,
   left = 22pt,
-  enlarge bottom by = -4pt
+  enlarge bottom by = -4pt,
+  sharp corners
 }
 
 \newtcolorbox{greenbox}{
@@ -70,38 +71,44 @@
   grow to right by = 25pt,
   right = 22pt,
   left = 22pt,
-  enlarge bottom by = -4pt
+  enlarge bottom by = -4pt,
+  sharp corners
 }
 
 \newtcolorbox{nadpisbox}{
   colback = red,
   boxrule = 0pt,
   grow to left by = -3.5cm,
-  grow to right by = -3.5cm
+  grow to right by = -3.5cm,
+  arc=8pt
 }
 
 \newtcolorbox{nadpisboxf}{
   colback = blue,
   boxrule = 0pt,
   grow to left by = -3cm,
-  grow to right by = -3cm
+  grow to right by = -3cm,
+  arc=8pt
 }
 
 \newtcolorbox{nadpisboxs}{
   colback = green,
   boxrule = 0pt,
   grow to left by = -4.93cm,
-  grow to right by = -4.93cm
+  grow to right by = -4.93cm,
+  arc=8pt
 }
 
 \newtcolorbox{nadpisboxy}{
   colback = yellow,
   boxrule = 0pt,
   grow to left by = -3.2cm,
-  grow to right by = -3.2cm
+  grow to right by = -3.2cm,
+  arc=8pt
 }
 
 \newtcolorbox{redbox}{
+  sharp corners,
   colback = red,
   boxrule = 0pt,
   grow to left by = 25pt,
@@ -112,25 +119,33 @@
 }
 
 \newcommand{\nadpis}[1]{
+  \vspace*{-60pt}
   \begin{nadpisbox}
+    \vspace*{20pt}
     \centering \section*{\textcolor{white}{#1}}
   \end{nadpisbox}
 }
 
 \newcommand{\nadpisf}[1]{
+\vspace*{-60pt}
   \begin{nadpisboxf}
+    \vspace*{20pt}
     \centering \section*{\textcolor{white}{#1}}
   \end{nadpisboxf}
 }
 
 \newcommand{\nadpiss}[1]{
+\vspace*{-60pt}
   \begin{nadpisboxs}
+    \vspace*{20pt}
     \centering \section*{\textcolor{white}{#1}}
   \end{nadpisboxs}
 }
 
 \newcommand{\nadpisy}[1]{
+\vspace*{-60pt}
   \begin{nadpisboxy}
+    \vspace*{20pt}
     \centering \section*{\textcolor{white}{#1}}
   \end{nadpisboxy}
 }
@@ -185,7 +200,7 @@ Sem patří seznam kabinetů.
 \newpage
 
 \nadpis{JAK TO U NÁS CHODÍ}
-\noindent \podnadpis{Dělení tříd}
+\noindent \podnadpis{DĚLENÍ TŘÍD}
 \begin{itemize}[leftmargin=10pt]
   \item \textcolor{red}{\textbf{X.A}} --  \textbf{matematicky zaměřená třída}. Většina studentů už jde z tzv. nižšího gymnázia na Příční ulici (prima až kvarta), na vyšším se k nim následně připojí pár dalších studentů
   \item \textcolor{red}{\textbf{X.B}} -- \textbf{všeobecná třída}, taky přicházejí z nižšího gymnázia
@@ -208,7 +223,7 @@ k dispozici je i španělština, francouzština a ruština
   \item  také existuje \textbf{studentský server Penguin} -- slouží primárně pro projekty studentů. Pokud tedy plánuješ třeba uspořádat školní akci, potřebuješ server pro svoji ZMP a nebo jen sháníš úložiště/pískoviště pro svoje vyžití, \textbf{nechceš platit hosting a nevadí ti trochu starší způsob přístupu k souborům}, obrať se na profesory informatiky, kteří tě pak můžou nasměrovat na \textbf{odpovědné správce serveru}; zpravidla to bývá \textbf{někdo ze studentstva}.
 \end{itemize}
 
-\podnadpis{Školní maily}
+\podnadpis{ŠKOLNÍ MAILY}
 \begin{itemize}[leftmargin=10pt]
   \item každý profesor má založený \textbf{svůj školní mail ve tvaru prijmeni@jaroska.cz}, na kterém ho můžeš kontaktovat. S tímhle mailem se většinou nespleteš, ale pro sichr je vždycky lepší se přímo dotyčného profesora \textbf{zeptat, jestli náhodou nemá mail na jiné doméně}, kterou používá častěji -- díky tomu můžeš dostat rychlejší odpověď.
   \item  a taky ti sem dáme pár důležitých mailů, které by se ti mohly hodit:
@@ -293,7 +308,7 @@ letech se snažíme otevřít skutečně vše, co je v našich silách.
     \item Volejbal
   \end{itemize}
 
-  \begin{tcolorbox}[colback=red,boxrule=0pt]
+  \begin{tcolorbox}[colback=red,boxrule=0pt, sharp corners]
     \textcolor{white}{\footnotesize Poznámky:
      některé předměty jsou označeny pro třídy X.A
       nebo ostatní. Osnovy matematické a všeobecné třídy se trochu liší, a proto jim musí být
@@ -302,6 +317,8 @@ letech se snažíme otevřít skutečně vše, co je v našich silách.
       neustále se snažíme vymýšlet nové smysluplné
       předměty -- hlavně do čtvrťáku. A některé ze
       seznamu se vůbec nemusejí otevřít.}
+
+      \hfill
 \end{tcolorbox}
 \end{multicols}
 
@@ -333,7 +350,7 @@ velmi opatrně). Přejeme pěknou jízdu!
   \textcolor{white}{\footnotesize Poznámka: Ne že bys nejen nesměl jezdit zdravý výtahem, ono to taky dost dobře nejde. Bez oprávnění na čipu tě výtah prostě nebude poslouchat a nepřijede ti. Když už je mysteriózně otevřen na patře prázdný, nikdo ti asi nebude fyzicky bránit do něj naskočit a odjet – ale pokud tě při tom načapá profesor, který to nemá rád, dostaneš bídu. Takže bacha.}
 \end{redbox}
 
-\podnadpis{a co ISIC?}
+\podnadpis{A CO ISIC?}
 Být studentem je dřina, když ti to průvodčí nevěří. Za drobnou úplatu ti tu však samozřejmě \textbf{vystavíme studentský průkaz ISIC}. Stačí vyplnit žádost (kterou najdeš na {\bf jaroska.cz} v příslušné sekci a nebo v kanceláři na stole), \textbf{předat ji paní zástupkyni Sítařové} a na její mail (\textbf{sitarova@jaroska.cz}) pošli reprezentativní \textbf{fotku} o rozlišení minimálně 300 x 360 px. Nechceme fotky naskenované z dokladů (ačkoli normální headshots jsou v pohodě), divně oříznuté, rozmazané nebo jinak
 nekvalitní.
 

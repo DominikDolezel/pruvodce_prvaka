@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1710611724.45639 "pruvodce_prvaka.xdv" "pruvodce_prvaka.pdf" "pruvodce_prvaka" 1710611724.62188 0
-  "pruvodce_prvaka.xdv" 1710611724.36322 76804 494192d6b4001116bc4ca15cd886a873 "xelatex"
+["xdvipdfmx"] 1723901198.91569 "pruvodce_prvaka.xdv" "pruvodce_prvaka.pdf" "pruvodce_prvaka" 1723901199.24064 0
+  "pruvodce_prvaka.xdv" 1723901198.74347 78652 f1ed797a560325c307b76cad73d87bf5 "xelatex"
   (generated)
   "pruvodce_prvaka.pdf"
   (rewritten before read)
-["xelatex"] 1710611723.56461 "pruvodce_prvaka.tex" "pruvodce_prvaka.xdv" "pruvodce_prvaka" 1710611724.61948 0
-  "/dev/null" 1710574636.3429 0 d41d8cd98f00b204e9800998ecf8427e ""
+["xelatex"] 1723901197.20424 "pruvodce_prvaka.tex" "pruvodce_prvaka.xdv" "pruvodce_prvaka" 1723901199.23742 0
+  "/dev/null" 1723827714.22061 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-czech/czech.ldf" 1367878866 15910 20b36fee6c6cdcfa90232891da7a9f34 ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty" 1676321701 151363 1f5971af3ef874d432e8fb43e0edb71d ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel/locale/cs/babel-cs.ini" 1663444672 4470 8926ee4ba8dab2461380eb9c70b49d23 ""
@@ -79,11 +79,11 @@
   "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty" 1654720880 88393 1adf6fa3f245270d06e3d4f8910f7fc5 ""
   "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty" 1654720880 4474 f04cd1cc7bd76eb033e6fb12eb6a0d77 ""
   "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty" 1654720880 2444 70065bddd85997dc1fd0bb7ae634e5fa ""
-  "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1689984000 20144 d5ecf0a5140c8d8d8b72cbe86e320eff ""
-  "/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty" 1689984000 5119 4ce42f43368f652f9c9522d943cce8e4 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1689984000 8448 c33a4e1cb35cee9b33c2b21033b73e39 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd" 1689984000 2430 8418b3f1835e588625becbcac4dbce56 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def" 1689984000 26445 9ed4a9401f29cbb58ef6909cd5aec01f ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1714953600 20144 d5ecf0a5140c8d8d8b72cbe86e320eff ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty" 1714953600 5119 4ce42f43368f652f9c9522d943cce8e4 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1714953600 8448 c33a4e1cb35cee9b33c2b21033b73e39 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd" 1714953600 2430 8418b3f1835e588625becbcac4dbce56 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def" 1714953600 26445 9ed4a9401f29cbb58ef6909cd5aec01f ""
   "/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty" 1399239813 4378 f429f0da968c278653359293040a8f52 ""
   "/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
@@ -139,10 +139,10 @@
   "/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty" 1667332637 7392 f19cdc68ae9f1190dbd54eee6d29fb7c ""
   "/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty" 1253232110 1380 971a51b00a14503ddf754cab24c3f209 ""
   "/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty" 1655066402 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1689984000 40900 887e0dc8cac988a9e9c574af364cf837 ""
-  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1710227421 10504765 b20f01bef7f5a61498f6d9a2541b2ba6 ""
-  "pruvodce_prvaka.aux" 1710611724.36322 150 702eaa31bba81e4a3a0e5085c0f4e34d "xelatex"
-  "pruvodce_prvaka.tex" 1710611723.18821 11217 1751ccacaa92c5740c28264d14c60a87 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1714953600 40900 887e0dc8cac988a9e9c574af364cf837 ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1723223841 11130208 ee96a8ad4133390af553b9082a467702 ""
+  "pruvodce_prvaka.aux" 1723901198.74247 150 8bfd0d834a7b317660d782619a601668 "xelatex"
+  "pruvodce_prvaka.tex" 1723901164.90013 11426 b4f27b700ddfbf0ff3ee067cc8ced675 ""
   (generated)
   "pruvodce_prvaka.aux"
   "pruvodce_prvaka.log"

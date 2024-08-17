@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.12)  16 MAR 2024 18:55
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Fedora 40) (preloaded format=xelatex 2024.8.9)  17 AUG 2024 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -29,7 +29,7 @@ Package: fullpage 1999/02/23 1.1 (PWD)
 Package: babel 2023/02/13 3.86 The Babel package
 \babel@savecnt=\count189
 \U@D=\dimen141
-\l@unhyphenated=\language86
+\l@unhyphenated=\language85
  (/usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count190
@@ -800,14 +800,14 @@ Overfull \hbox (0.12013pt too wide) in paragraph at lines 259--261
 \TU/OpenSans(0)/m/n/10 kladů (ačkoli normální headshots jsou v pohodě), divně oříznuté, rozmazané nebo
  []
 
-[5] (./pruvodce_prvaka.aux) ) 
+[5] [6] (./pruvodce_prvaka.aux) ) 
 Here is how much of TeX's memory you used:
- 22616 strings out of 476689
- 524946 string characters out of 5806613
+ 22616 strings out of 476696
+ 524946 string characters out of 5806956
  1867018 words of memory out of 6000000
- 42477 multiletter control sequences out of 15000+600000
+ 42476 multiletter control sequences out of 15000+600000
  512495 words of font info for 58 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,5n,104p,568b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on pruvodce_prvaka.xdv (6 pages, 76804 bytes).
+Output written on pruvodce_prvaka.xdv (7 pages, 78652 bytes).

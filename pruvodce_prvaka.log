@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Fedora 40) (preloaded format=xelatex 2024.8.9)  17 AUG 2024 21:26
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Fedora 40) (preloaded format=xelatex 2024.8.9)  17 AUG 2024 21:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -961,22 +961,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 477--481
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
 
  []
 
-[12] [13] [14] (./pruvodce_prvaka.aux)
+File: dulezite.jpg Graphic file (type bmp)
+<dulezite.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--511
+
+ []
+
+File: dulezite.jpg Graphic file (type bmp)
+<dulezite.jpg>
+File: dulezite.jpg Graphic file (type bmp)
+<dulezite.jpg>
+
+Overfull \hbox (5.42601pt too wide) in paragraph at lines 534--550
+[]$[]$  $[]$ 
+ []
+
+File: dulezite.jpg Graphic file (type bmp)
+<dulezite.jpg>
+[12]
+File: dulezite.jpg Graphic file (type bmp)
+<dulezite.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 576--594
+
+ []
+
+File: dulezite.jpg Graphic file (type bmp)
+<dulezite.jpg>
+File: dulezite.jpg Graphic file (type bmp)
+<dulezite.jpg>
+
+Overfull \hbox (5.42601pt too wide) in paragraph at lines 617--633
+[]$[]$  $[]$ 
+ []
+
+[13] [14] [15] (./pruvodce_prvaka.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 24953 strings out of 476696
- 572142 string characters out of 5806956
+ 24981 strings out of 476696
+ 572610 string characters out of 5806956
  1867018 words of memory out of 6000000
- 44753 multiletter control sequences out of 15000+600000
- 514242 words of font info for 72 fonts, out of 8000000 for 9000
+ 44771 multiletter control sequences out of 15000+600000
+ 517368 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,5n,104p,677b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on pruvodce_prvaka.xdv (15 pages, 181572 bytes).
+Output written on pruvodce_prvaka.xdv (16 pages, 207296 bytes).

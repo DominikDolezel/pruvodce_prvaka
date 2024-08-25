@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Fedora 40) (preloaded format=xelatex 2024.8.9)  25 AUG 2024 10:54
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Fedora 40) (preloaded format=xelatex 2024.8.9)  25 AUG 2024 11:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -973,14 +973,7 @@ File: main.pdf Graphic file (type pdf)
 <use main.pdf, page 1>
 File: main.pdf Graphic file (type pdf)
 <use main.pdf, page 1>
- [1]
-File: main.pdf Graphic file (type pdf)
-<use main.pdf, page 2>
-File: main.pdf Graphic file (type pdf)
-<use main.pdf, page 2>
-File: main.pdf Graphic file (type pdf)
-<use main.pdf, page 2>
- [2] [3]
+ [1] [2]
 Overfull \hbox (0.8492pt too wide) in paragraph at lines 218--219
 []\TU/OpenSans(0)/m/n/10 na začátku školního roku dostane každý student svoje přihlašovací údaje k \TU/OpenSans(0)/b/n/10 elek-
  []
@@ -997,12 +990,12 @@ Overfull \hbox (6.78438pt too wide) in paragraph at lines 238--239
 []\TU/OpenSans(0)/m/n/10 hospodářka (té napiš při problémech se systémem obědů): []\TU/OpenSans(0)/b/n/10 turcanu@jaroska.cz[] 
  []
 
-[4] [5]
+[3] [4]
 Overfull \hbox (0.12013pt too wide) in paragraph at lines 357--359
 \TU/OpenSans(0)/m/n/10 kladů (ačkoli normální headshots jsou v pohodě), divně oříznuté, rozmazané nebo
  []
 
-[6]
+[5]
 File: dulezite.jpg Graphic file (type bmp)
 <dulezite.jpg>
 LaTeX Font Info:    Trying to load font information for U+msa on input line 376.
@@ -1017,17 +1010,17 @@ File: dulezite.jpg Graphic file (type bmp)
 <dulezite.jpg>
 File: dulezite.jpg Graphic file (type bmp)
 <dulezite.jpg>
- [7] [8] [9] [10]
+ [6] [7] [8] [9]
 Overfull \hbox (0.50888pt too wide) in paragraph at lines 471--471
 |[]\TU/OpenSans(0)/b/n/17.28 SOUTĚŽE[]|
  []
 
-[11]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 482--485
 
  []
 
-[12]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 539--540
 
  []
@@ -1045,7 +1038,7 @@ File: dulezite.jpg Graphic file (type bmp)
 <dulezite.jpg>
 File: dulezite.jpg Graphic file (type bmp)
 <dulezite.jpg>
-[13]
+[12]
 File: dulezite.jpg Graphic file (type bmp)
 <dulezite.jpg>
 File: dulezite.jpg Graphic file (type bmp)
@@ -1057,18 +1050,18 @@ Overfull \hbox (5.42601pt too wide) in paragraph at lines 669--687
 []$[]$  $[]$ 
  []
 
-[14] [15] [16] (./pruvodce_prvaka.aux)
+[13] [14] [15] (./pruvodce_prvaka.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 25892 strings out of 476696
- 589002 string characters out of 5806956
+ 25890 strings out of 476696
+ 588951 string characters out of 5806956
  1867018 words of memory out of 6000000
- 45646 multiletter control sequences out of 15000+600000
+ 45644 multiletter control sequences out of 15000+600000
  520464 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,17n,104p,677b,618s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on pruvodce_prvaka.xdv (17 pages, 220532 bytes).
+Output written on pruvodce_prvaka.xdv (16 pages, 219924 bytes).

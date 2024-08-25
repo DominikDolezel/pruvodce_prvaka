@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1724576044.82934 "pruvodce_prvaka.xdv" "pruvodce_prvaka.pdf" "pruvodce_prvaka" 1724576045.13603 0
-  "pruvodce_prvaka.xdv" 1724576044.61747 220532 488d9312cffbd041a35729a973d86ed2 "xelatex"
+["xdvipdfmx"] 1724577222.77687 "pruvodce_prvaka.xdv" "pruvodce_prvaka.pdf" "pruvodce_prvaka" 1724577223.07778 0
+  "pruvodce_prvaka.xdv" 1724577222.56774 219924 3f51a4f293ed0bf10e74898d5f13c327 "xelatex"
   (generated)
   "pruvodce_prvaka.pdf"
   (rewritten before read)
-["xelatex"] 1724576042.8295 "pruvodce_prvaka.tex" "pruvodce_prvaka.xdv" "pruvodce_prvaka" 1724576045.13127 0
+["xelatex"] 1724577220.7942 "pruvodce_prvaka.tex" "pruvodce_prvaka.xdv" "pruvodce_prvaka" 1724577223.07353 0
   "/dev/null" 1724574415.71176 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -187,9 +187,9 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1714953600 40900 887e0dc8cac988a9e9c574af364cf837 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1723223841 11130208 ee96a8ad4133390af553b9082a467702 ""
   "dulezite.jpg" 1718126306.29451 65233 2897cdf4370d89d31b3432b264f88697 ""
-  "main.pdf" 1724575645.94852 41217 b729d1e8f3b7bdfd79f72d70b3fd3209 ""
-  "pruvodce_prvaka.aux" 1724576044.61647 186 47a82e451289fd886cd863ff1e8518d2 "xelatex"
-  "pruvodce_prvaka.tex" 1724576040.21039 32946 9520a1923a90350ef01d0af6aff2d85d ""
+  "main.pdf" 1724577187.56412 40909 064b640cad6ca363c1f47333491092d9 ""
+  "pruvodce_prvaka.aux" 1724577222.56574 186 706fe24d520ee0d6bf2902113e35a9a1 "xelatex"
+  "pruvodce_prvaka.tex" 1724577218.16366 32946 9520a1923a90350ef01d0af6aff2d85d ""
   (generated)
   "pruvodce_prvaka.aux"
   "pruvodce_prvaka.log"

@@ -1,13 +1,17 @@
 \documentclass[a5paper]{article}
 \usepackage{graphicx}
+\usepackage{fullpage}
+\usepackage[a5paper,margin=25pt]{geometry}
 \usepackage{tikz}
 \usepackage[czech]{babel}
 \usepackage{graphicx,amssymb,fp}
 \usepackage{fontspec}
-
 \usepackage{adjustbox}
+\usepackage{xcolor}
+\usepackage{pagecolor}
 \usetikzlibrary{shapes.geometric, arrows}
 
+\pagenumbering{gobble}
 \setmainfont{OpenSans}
 \pgfdeclarelayer{background layer}
 \pgfdeclarelayer{foreground layer}
@@ -48,13 +52,13 @@
 \node at (\x1/2+\x2/2+\y1*\cos,\y1*\sin+\z1/2+\z2/2) {#9};
 }
 
+\definecolor{blue}{cmyk}{0.89, 0, 0.12, 0.2}
+
 \begin{document}
-
-
     \centering
-
+    \newpagecolor{blue}
     %5patro
-    \begin{tikzpicture}[scale=0.08]
+    \begin{tikzpicture}[scale=0.12]
         \kvadr{0}{12}{6}{34}{0-0.5}{0}{black!100}{}{};
         \kvadr{0}{8}{0}{6}{0-0.5}{0}{black!100}{}{};
         \kvadr{12}{29}{15}{34}{0-0.5}{0}{black!100}{}{};
@@ -176,7 +180,7 @@
     \end{tikzpicture}
 
     %4patro
-    \begin{tikzpicture}[scale=0.08]
+    \begin{tikzpicture}[scale=0.12]
         \kvadr{0}{12}{6}{34}{0-0.5}{0}{black!100}{}{};
         \kvadr{0}{8}{0}{6}{0-0.5}{0}{black!100}{}{};
         \kvadr{12}{29}{15}{34}{0-0.5}{0}{black!100}{}{};
@@ -298,7 +302,7 @@
     \end{tikzpicture}
 
     %3patro
-    \begin{tikzpicture}[scale=0.08]
+    \begin{tikzpicture}[scale=0.12]
         \kvadr{0}{12}{6}{34}{0-0.5}{0}{black!100}{}{};
         \kvadr{0}{8}{0}{6}{0-0.5}{0}{black!100}{}{};
         \kvadr{12}{29}{15}{34}{0-0.5}{0}{black!100}{}{};
@@ -420,7 +424,7 @@
     \end{tikzpicture}
 
     %2patro
-    \begin{tikzpicture}[scale=0.08]
+    \begin{tikzpicture}[scale=0.12]
         \kvadr{0}{12}{6}{34}{0-0.5}{0}{black!100}{}{};
         \kvadr{0}{8}{0}{6}{0-0.5}{0}{black!100}{}{};
         \kvadr{12}{29}{15}{34}{0-0.5}{0}{black!100}{}{};
@@ -542,7 +546,7 @@
     \end{tikzpicture}
 
     %1patro
-    \begin{tikzpicture}[scale=0.08]
+    \begin{tikzpicture}[scale=0.12]
         \kvadr{0}{12}{6}{34}{0-0.5}{0}{black!100}{}{};
         \kvadr{0}{8}{0}{6}{0-0.5}{0}{black!100}{}{};
         \kvadr{12}{29}{15}{34}{0-0.5}{0}{black!100}{}{};
@@ -664,7 +668,7 @@
     \end{tikzpicture}
 
     %0patro (telocvicna)
-    \begin{tikzpicture}[scale=0.08]
+    \begin{tikzpicture}[scale=0.12]
         \kvadr{0}{12}{6}{34}{0-0.5}{0}{black!100}{}{};
         \kvadr{0}{8}{0}{6}{0-0.5}{0}{black!100}{}{};
         \kvadr{12}{29}{15}{34}{0-0.5}{0}{black!100}{}{};

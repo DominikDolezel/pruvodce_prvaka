@@ -37,7 +37,7 @@
 
 
 %definovani sklonu (jeste je treba upravit )
-\tikzmath{ \sin=0.6;\cos=0.30;}
+\tikzmath{ \sin=0.60;\cos=0.30;}
 
 %prikaz \kvadr{x1;x2;y1;y2;z1;z2;barva;popisek nahore;popisek vpredu}
 \newcommand{\kvadr}[9]{
@@ -61,6 +61,8 @@
     {
     \centering
     \newpagecolor{blue}
+    \small
+
     %5patro
     \begin{tikzpicture}[scale=\scale]
         \kvadr{0}{12}{6}{34}{0-0.5}{0}{black!100}{}{};
@@ -164,54 +166,54 @@
     \begin{tikzpicture}[scale=\scale]
         \kvadr{0}{12}{6}{34}{0-0.5}{0}{black!100}{}{};
         \kvadr{0}{8}{0}{6}{0-0.5}{0}{black!100}{}{};
-        \kvadr{12}{29}{15}{34}{0-0.5}{0}{black!100}{}{};split
+        \kvadr{12}{29}{15}{34}{0-0.5}{0}{black!100}{}{};
         \kvadr{29}{41}{23}{34}{0-0.5}{0}{black!100}{}{};
         \kvadr{41}{58}{15}{34}{0-0.5}{0}{black!100}{}{};
         \kvadr{53}{71}{8}{34}{0-0.5}{0}{black!100}{}{};
         \kvadr{58}{71}{0}{8}{0-0.5}{0}{black!100}{}{};
 
-        \kvadr{0}{8}{24}{34}{0}{4}{orange!80}{404 1.D}{};
+        \kvadr{0}{8}{24}{34}{0}{4}{orange!80}{\shortstack{404 \\ 1.D}}{};
 
         %\kvadr{0}{8}{23}{24}{0}{4}{black!30}{}{};
-        \kvadr{0}{8}{17.5}{23}{0}{4}{violet!80}{}{};
-        \kvadr{0}{8}{11}{16.5}{0}{4}{violet!80}{pi}{};
+        \kvadr{0}{8}{17.5}{23}{0}{4}{violet!80}{\shortstack{403 \\ Bi2}}{};
+        \kvadr{0}{8}{11}{16.5}{0}{4}{violet!80}{\shortstack{402 \\ Bi}}{};
 
 
 
 
         %\kvadr{0}{8}{12}{13}{0}{4}{black!30}{}{};
 
-        \kvadr{0}{8}{0}{10}{0}{4}{orange!80}{401 Bi1}{};
+        \kvadr{0}{8}{0}{10}{0}{4}{orange!80}{\shortstack{401 \\ Bi1}}{};
 
         %\kvadr{8}{9}{26}{34}{0}{4}{black!30}{}{};
 
-        \kvadr{9}{19}{26}{34}{0}{4}{orange!80}{405 1.A}{};
+        \kvadr{9}{19}{26}{34}{0}{4}{orange!80}{\shortstack{405 \\ 1.A}}{};
 
         %\kvadr{19}{20}{26}{34}{0}{4}{black!30}{}{};
 
-        \kvadr{20}{24}{26}{34}{0}{4}{violet!80}{\tiny{406 Jazyky 1}}{};
+        \kvadr{20}{24}{26}{34}{0}{4}{violet!80}{\tiny{\shortstack{406 \\ Jazyky 1}}}{};
 
         %\kvadr{24}{25}{26}{34}{0}{4}{black!30}{}{};
 
-        \kvadr{25}{35}{26}{34}{0}{4}{red}{407 4.B}{};
+        \kvadr{25}{35}{26}{34}{0}{4}{red}{\shortstack{407 \\ 4.B}}{};
 
-        \kvadr{36}{46}{26}{34}{0}{4}{red}{408 2.B}{};
+        \kvadr{36}{46}{26}{34}{0}{4}{red}{\shortstack{408 \\ 2.B}}{};
 
         %\kvadr{46}{47}{26}{34}{0}{4}{black!30}{}{};
 
-        \kvadr{47}{51}{26}{34}{0}{4}{violet!80}{\tiny{409 M}}{};
+        \kvadr{47}{51}{26}{34}{0}{4}{violet!80}{\tiny{\shortstack{409 \\ M}}}{};
 
         %\kvadr{51}{52}{26}{34}{0}{4}{black!30}{}{};
 
-        \kvadr{52}{62}{26}{34}{0}{4}{orange!80}{410 4.C}{};
+        \kvadr{52}{62}{26}{34}{0}{4}{orange!80}{\shortstack{410 \\ 4.C}}{};
 
         %\kvadr{62}{63}{26}{34}{0}{4}{black!30}{}{};
 
-        \kvadr{63}{71}{24}{34}{0}{4}{orange!80}{411 D}{};
+        \kvadr{63}{71}{24}{34}{0}{4}{orange!80}{\shortstack{411 \\ D}}{};
 
 
 
-        \kvadr{12}{22}{15}{23}{0}{4}{orange!80}{419 2.D}{};
+        \kvadr{12}{22}{15}{23}{0}{4}{orange!80}{\shortstack{419 \\ 2.D}}{};
 
         %\kvadr{22}{23}{15}{23}{0}{4}{black!30}{}{};
 
@@ -247,7 +249,7 @@
         %\kvadr{50}{51}{20}{23}{0}{4}{black!30}{}{};
 
         \kvadr{48}{51}{15}{20}{0}{4}{green!80}{}{};
-        \kvadr{51}{58}{15}{23}{0}{4}{green!80}{Knihovna}{};
+        \kvadr{51}{58}{15}{23}{0}{4}{green!80}{\shortstack{ 418 \\ Knihovna}}{};
 
         %\kvadr{53}{58}{14}{15}{0}{4}{black!30}{}{};
 
@@ -265,14 +267,14 @@
         \kvadr{56}{57}{6.5}{8}{3}{3.5}{black!60}{}{};
         \kvadr{57}{58}{6.5}{8}{3.5}{4}{black!60}{}{};
 
-        \kvadr{58}{62}{0}{5}{0}{4}{violet!80}{Sklad učebnic}{};
+        \kvadr{58}{62}{0}{5}{0}{4}{violet!80}{\shortstack{ 417 \\ Sklad učebnic}}{};
         %\kvadr{62}{63}{0}{5}{0}{4}{black!30}{}{};
 
 
         %\kvadr{63}{71}{23}{24}{0}{4}{black!30}{}{};
         \kvadr{63}{71}{12}{23}{0}{4}{orange!80}{kabinet nwm}{};
         %\kvadr{63}{71}{7}{8}{0}{4}{black!30}{}{};
-        \kvadr{63}{71}{0}{11}{0}{4}{orange!80}{416 1.C}{};
+        \kvadr{63}{71}{0}{11}{0}{4}{orange!80}{\shortstack{416 \\ 1.C}}{};
 
 
     \end{tikzpicture}
@@ -291,7 +293,8 @@
 
         %\kvadr{0}{8}{23}{24}{0}{4}{black!30}{}{};
 
-        \kvadr{0}{8}{13}{23}{0}{4}{violet!80}{\shortstack{302 \& 303 \\ M,F}}{};
+        \kvadr{0}{8}{18.2}{23}{0}{4}{violet!80}{\shortstack{302 \& 303}}{};
+        \kvadr{0}{8}{13}{17.8}{0}{4}{violet!80}{\shortstack{M, F}}{};
 
         %\kvadr{0}{8}{12}{13}{0}{4}{black!30}{}{};
 
@@ -312,7 +315,7 @@
 
         %\kvadr{46}{47}{26}{34}{0}{4}{black!30}{}{};
 
-        \kvadr{47}{51}{26}{34}{0}{4}{violet!80}{\tiny{\shortstack{308 I2}}}{};
+        \kvadr{47}{51}{26}{34}{0}{4}{violet!80}{\tiny{\shortstack{308 \\ I2}}}{};
 
         %\kvadr{51}{52}{26}{34}{0}{4}{black!30}{}{};
 
@@ -324,7 +327,7 @@
 
 
 
-        \kvadr{12}{22}{15}{23}{0}{4}{orange!80}{1.A}{};
+        \kvadr{12}{22}{15}{23}{0}{4}{orange!80}{ \shortstack {316 \\ 1.A}}{};
 
         %\kvadr{22}{23}{15}{23}{0}{4}{black!30}{}{};
 
@@ -353,14 +356,14 @@
 
         %\kvadr{47}{48}{15}{23}{0}{4}{black!30}{}{};
 
-        \kvadr{48}{50}{21}{23}{0}{4}{pink}{}{};
+        %\kvadr{48}{50}{21}{23}{0}{4}{pink}{}{};
 
         %\kvadr{48}{50}{20}{21}{0}{4}{black!30}{}{};
 
         %\kvadr{50}{51}{20}{23}{0}{4}{black!30}{}{};
 
-        \kvadr{48}{51}{15}{20}{0}{4}{orange!80}{}{};
-        \kvadr{51}{58}{15}{23}{0}{4}{orange!80}{Mul}{};
+        \kvadr{48}{58}{15}{23}{0}{4}{orange!80}{\shortstack{315 \\ Mm}}{};
+        %\kvadr{51}{58}{15}{23}{0}{4}{orange!80}{Mul}{};
 
         %\kvadr{53}{58}{14}{15}{0}{4}{black!30}{}{};
 
@@ -378,16 +381,16 @@
         \kvadr{56}{57}{6.5}{8}{3}{3.5}{black!60}{}{};
         \kvadr{57}{58}{6.5}{8}{3.5}{4}{black!60}{}{};
 
-        \kvadr{58}{62}{0}{5}{0}{4}{violet!80}{I1}{};
+        \kvadr{58}{62}{0}{5}{0}{4}{violet!80}{\shortstack{314 \\ I1}}{};
         %\kvadr{62}{63}{0}{5}{0}{4}{black!30}{}{};
 
 
         %\kvadr{63}{71}{23}{24}{0}{4}{black!30}{}{};
-        \kvadr{63}{71}{16}{23}{0}{4}{orange!80}{T3}{};
+        \kvadr{63}{71}{16}{23}{0}{4}{orange!80}{\shortstack{311 \\ T3}}{};
         %\kvadr{63}{71}{15}{16}{0}{4}{black!30}{}{};
-        \kvadr{63}{71}{8}{15}{0}{4}{orange!80}{T2}{};
+        \kvadr{63}{71}{8}{15}{0}{4}{orange!80}{\shortstack{312 \\ T2}}{};
         %\kvadr{63}{71}{7}{8}{0}{4}{black!30}{}{};
-        \kvadr{63}{71}{0}{7}{0}{4}{orange!80}{T1}{};
+        \kvadr{63}{71}{0}{7}{0}{4}{orange!80}{\shortstack{313 \\ T1}}{};
 
 
     \end{tikzpicture}
@@ -402,25 +405,25 @@
         \kvadr{53}{71}{8}{34}{0-0.5}{0}{black!100}{}{};
         \kvadr{58}{71}{0}{8}{0-0.5}{0}{black!100}{}{};
 
-        \kvadr{0}{8}{24}{34}{0}{4}{orange!80}{F2}{};
+        \kvadr{0}{8}{24}{34}{0}{4}{orange!80}{\shortstack{205 \& 206 \\ Kanc a ředitelna}}{};
 
         %\kvadr{0}{8}{23}{24}{0}{4}{black!30}{}{};
 
-        \kvadr{0}{8}{16}{23}{0}{4}{violet!80}{204}{};
-        \kvadr{0}{8}{12.5}{15}{0}{4}{violet!80}{204}{};
-        \kvadr{0}{8}{8}{11.5}{0}{4}{violet!80}{204}{};
-        \kvadr{0}{8}{0}{7}{0}{4}{violet!80}{204}{};
+        \kvadr{0}{8}{16}{23}{0}{4}{violet!80}{\shortstack{204 \\ třída}}{};
+        \kvadr{0}{8}{12.5}{15}{0}{4}{violet!80}{\shortstack{203 \\ Mzdová účetní}}{};
+        \kvadr{0}{8}{8}{11.5}{0}{4}{violet!80}{\shortstack{202 \\ ZŘ}}{};
+        \kvadr{0}{8}{0}{7}{0}{4}{violet!80}{\shortstack{201 \\ 4.D}}{};
 
 
         %\kvadr{8}{9}{26}{34}{0}{4}{black!30}{}{};
 
-        \kvadr{9}{19}{26}{34}{0}{4}{orange!80}{sborovna}{};
+        \kvadr{9}{19}{26}{34}{0}{4}{orange!80}{\shortstack{207 \\ Sborovna}}{};
 
-        \kvadr{20}{31}{26}{34}{0}{4}{orange!80}{klub}{};
+        \kvadr{20}{31}{26}{34}{0}{4}{orange!80}{\shortstack{208 \\ Klub}}{};
 
-        \kvadr{32}{42}{26}{34}{0}{4}{orange!80}{4B}{};
+        \kvadr{32}{42}{26}{34}{0}{4}{orange!80}{\shortstack{209 \\ 4.B}}{};
 
-        \kvadr{43}{51}{26}{34}{0}{4}{orange!80}{serverovna}{};
+        \kvadr{43}{51}{26}{34}{0}{4}{orange!80}{\shortstack{210 \\ Serverovna}}{};
 
 
 
@@ -428,15 +431,15 @@
 
         %\kvadr{51}{52}{26}{34}{0}{4}{black!30}{}{};
 
-        \kvadr{52}{62}{26}{34}{0}{4}{orange!80}{4.D}{};
+        \kvadr{52}{62}{26}{34}{0}{4}{orange!80}{\shortstack{211 \\ 4.D}}{};
 
         %\kvadr{62}{63}{26}{34}{0}{4}{black!30}{}{};
 
-        \kvadr{63}{71}{24}{34}{0}{4}{orange!80}{3.A}{};
+        \kvadr{63}{71}{24}{34}{0}{4}{orange!80}{\shortstack{212 \\ 3.A}}{};
 
 
 
-        \kvadr{12}{22}{15}{23}{0}{4}{orange!80}{1.A}{};
+        \kvadr{12}{22}{15}{23}{0}{4}{orange!80}{\shortstack{218 \\ 1.A}}{};
 
         %\kvadr{22}{23}{15}{23}{0}{4}{black!30}{}{};
 
@@ -465,15 +468,15 @@
 
         %\kvadr{47}{48}{15}{23}{0}{4}{black!30}{}{};
 
-        \kvadr{48}{50}{21}{23}{0}{4}{pink}{}{};
+        %\kvadr{48}{50}{21}{23}{0}{4}{pink}{}{};
 
         %\kvadr{48}{50}{20}{21}{0}{4}{black!30}{}{};
 
         %\kvadr{50}{51}{20}{23}{0}{4}{black!30}{}{};
 
-        \kvadr{51}{53}{15}{23}{0}{4}{orange!80}{Mul}{};
-        \kvadr{53.5}{55.5}{15}{23}{0}{4}{orange!80}{Mul}{};
-        \kvadr{56}{58}{15}{23}{0}{4}{orange!80}{Mul}{};
+        \kvadr{48}{50.6}{15}{23}{0}{4}{black!40}{\shortstack{219 \\ Mzdová účetní}}{};
+        \kvadr{51.1}{53.7}{15}{23}{0}{4}{violet!80}{\shortstack{218 \\ Tv}}{};
+        \kvadr{54.2}{58}{15}{23}{0}{4}{orange!80}{\shortstack{217 \\ Archiv}}{};
 
 
 
@@ -493,16 +496,16 @@
         \kvadr{56}{57}{6.5}{8}{3}{3.5}{black!60}{}{};
         \kvadr{57}{58}{6.5}{8}{3.5}{4}{black!60}{}{};
 
-        \kvadr{58}{62}{0}{5}{0}{4}{violet!80}{I1}{};
+        \kvadr{58}{62}{0}{5}{0}{4}{violet!80}{\shortstack{216 \\ I1}}{};
         %\kvadr{62}{63}{0}{5}{0}{4}{black!30}{}{};
 
 
         %\kvadr{63}{71}{23}{24}{0}{4}{black!30}{}{};
-        \kvadr{63}{71}{16}{23}{0}{4}{orange!80}{T3}{};
+        \kvadr{63}{71}{16}{23}{0}{4}{orange!80}{\shortstack{213 \\ T3}}{};
         %\kvadr{63}{71}{15}{16}{0}{4}{black!30}{}{};
-        \kvadr{63}{71}{8}{15}{0}{4}{orange!80}{T2}{};
+        \kvadr{63}{71}{8}{15}{0}{4}{orange!80}{\shortstack{214 \\ T2}}{};
         %\kvadr{63}{71}{7}{8}{0}{4}{black!30}{}{};
-        \kvadr{63}{71}{0}{7}{0}{4}{orange!80}{T1}{};
+        \kvadr{63}{71}{0}{7}{0}{4}{orange!80}{\shortstack{215 \\ T1}}{};
 
 
     \end{tikzpicture}

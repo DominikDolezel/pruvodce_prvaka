@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[a5paper]{article}
 \usepackage{fullpage}
 \usepackage[czech]{babel}
 \usepackage{amsfonts}
@@ -173,25 +173,25 @@
 
 \begin{document}
 \begin{titlepage}
-  \newgeometry{margin=0pt}
-  \pagecolor{red}
-    \begin{center}
-      \vspace*{\fill}
+	\newgeometry{margin=0pt}
+	\pagecolor{red}
+	\begin{center}
+		\vspace*{\fill}
 
-      \textcolor{white}{\fontsize{60}{60} \Kapitan Průvodce\\\vspace{0.2em}prváka}
+		\textcolor{white}{\fontsize{60}{60} \Kapitan Průvodce\\\vspace{0.2em}prváka}
 
-      \vspace*{\fill}
-      \textcolor{white}{\fontsize{20}{20} \Kapitan Jaroška}
+		\vspace*{\fill}
+		\textcolor{white}{\fontsize{20}{20} \Kapitan Jaroška}
 
-      \vspace{0.5em}
+		\vspace{0.5em}
 
-      \begin{bluebox}
-        \centering \fontsize{15}{15} \Kapitan \textcolor{white}{2024/2025}
-      \end{bluebox}
+		\begin{bluebox}
+			\centering \fontsize{15}{15} \Kapitan \textcolor{white}{2024/2025}
+		\end{bluebox}
 
-      \vspace{3em}
+		\vspace{3em}
 
-    \end{center}
+	\end{center}
 \end{titlepage}
 \pagecolor{white}
 
@@ -203,43 +203,78 @@
 % kabinety
 \noindent
 \newpagecolor{blue}
-Sem patří seznam kabinetů.
+\textcolor{white}{
+  \nadpis{SEZNAM KABINETŮ}
+  \noindent \begin{tabular}{l l l}
+    Kabinet hala & 1. podlaží & Zvolská \\
+    Kabinet AŠSK & & Jadvidžák, Stupka \\
+    Finanční účetní & 202 & Polachová \\
+    Kabinet ZŘ & 203 & Sítařová \\
+    Kancelář & 205 & Jemna \\
+    Ředitelna & 206 & Nečas \\
+    Server & 210 & Rádl \\
+    Chemie & 213 & Brančová, Kyasová, Plavčanová, Vašíčková \\
+    Tělená výchova & 218 & Stupka, Doležal, Liškutín, Marková D., \\
+    & & Štarhová \\
+    Mzdová účetní & 219 & Šuléřová \\
+    Fyzika 1 & 302 & Přikryl, Glozar, Kučera, Sekerka \\
+    Fyzika 2 & 303 & Lacinová, Ježek, Řehák \\
+    Kabinet ZŘ & 306 & Kobza \\
+    Výpočetní technika 2 & 308 & Horáková N., Hájková V., Krejčí T. \\
+    Výpočetní technika 1 & 314 & Blaha, Krejčí P. \\
+    Biologie & 402 & Kubištová, Kupčík, Vařejka \\
+    Jazyky 1 & 406 & Zvolská, Chovancová, Literáková \\
+    Matematika & 409 & Šťastná, Boucník, Juránek, Trnka \\
+    Dějepis, zeměpis & 412 & Šlesingerová, Maříková \\
+    Čeština & 413 & Marková L., Mrkosová \\
+    Kabinet VP & 414 & Borošová, Nováková M. \\
+    Společenské vědy & 415 & Pospíšil, Bučková, Horáková J. \\
+    Sklad učebnic & 417 & Horák, Zerhau \\
+    Knihovna & 418 & Pleva Hudeček, Tillová, Urban \\
+    Angličtina 1 & 501 & Smělíková Pilátová, Kallus Brychová \\
+    Jazyky 2 & 502 & Jugasová, Sedlinská \\
+    Angličtina 2 & 503 & Kubitová, Zubíčková \\
+    Výtvarná výchova & 504 & Havlíčková, Hubáček, Nobbs, O'Malley \\
+    Jazyky 3 & 509 & Adámková, Clausová, Novotná, Vomelová \\
+    Hudební výchova & 515 & Ambrozová, Ptáčková, Řihánková
+  \end{tabular}
+  }
 \newpage
 \newpagecolor{white}
 
 \nadpis{JAK TO U NÁS CHODÍ}
 \noindent \podnadpis{DĚLENÍ TŘÍD}
 \begin{itemize}[leftmargin=10pt]
-  \item \textcolor{red}{\textbf{X.A}} --  \textbf{matematicky zaměřená třída}, většina studentů už jde z tzv. nižšího gymnázia na Příční ulici (prima až kvarta), na vyšším se k nim následně připojí pár dalších studentů
-  \item \textcolor{red}{\textbf{X.B}} -- \textbf{všeobecná třída}, taky přicházejí z nižšího gymnázia
-  \item \textcolor{red}{\textbf{X.C}} -- \textbf{všeobecná třída}, druhý cizí jazyk je volitelný: vítězí většinou němčina, ale
-k dispozici je i španělština, francouzština a ruština
-  \item \textcolor{red}{\textbf{X.D}} -- \textbf{všeobecná třída}, druhý cizí jazyk může být pouze němčina
+	\item \textcolor{red}{\textbf{X.A}} --  \textbf{matematicky zaměřená třída}, většina studentů už jde z tzv. nižšího gymnázia na Příční ulici (prima až kvarta), na vyšším se k nim následně připojí pár dalších studentů
+	\item \textcolor{red}{\textbf{X.B}} -- \textbf{všeobecná třída}, taky přicházejí z nižšího gymnázia
+	\item \textcolor{red}{\textbf{X.C}} -- \textbf{všeobecná třída}, druhý cizí jazyk je volitelný: vítězí většinou němčina, ale
+	      k dispozici je i španělština, francouzština a ruština
+	\item \textcolor{red}{\textbf{X.D}} -- \textbf{všeobecná třída}, druhý cizí jazyk může být pouze němčina
 \end{itemize}
 \podnadpis{IT}
 \begin{itemize}[leftmargin=10pt]
-  \item na začátku školního roku dostane každý student svoje přihlašovací údaje k~\textbf{elektronické třídnici EduPage}
-  \item také existuje trochu jiné ID, díky kterému se budeš moct \textbf{přihlašovat v informatice} k počítačům na školní síti a taky na \textbf{školní wifinu}
+	\item na začátku školního roku dostane každý student svoje přihlašovací údaje k~\textbf{elektronické třídnici EduPage}
+	\item také existuje trochu jiné ID, díky kterému se budeš moct \textbf{přihlašovat v informatice} k počítačům na školní síti a taky na \textbf{školní wifinu}
 \end{itemize}
 
 \begin{redbox}
-    \textcolor{white}{S připojováním osobních notebooků na školní wifi to bývalo v minulosti trochu složitější. Naštěstí v minulém školním roce naše zastaralá síť přošla značnými úpravami, takže už by to teď neměl být problém. Stačí se přihlásit na síť \textit{JAROSKA\_S} se stejným jménem a heslem, jako se přihlašuješ v informatice. Pokud si heslo na počítač změníš, změní se ti i heslo na wifi! V případě, že něco nebude fungovat, zajdi za panem profesorem Blahou (jehož kabinet si můžeš najít na plánku školy) a popros ho o pomoc.}
+	\textcolor{white}{S připojováním osobních notebooků na školní wifi to bývalo v minulosti trochu složitější. Naštěstí v minulém školním roce naše zastaralá síť přošla značnými úpravami, takže už by to teď neměl být problém. Stačí se přihlásit na síť \textit{JAROSKA\_S} se stejným jménem a heslem, jako se přihlašuješ v informatice. Pokud si heslo na počítač změníš, změní se ti i heslo na wifi! V případě, že něco nebude fungovat, zajdi za panem profesorem Blahou (jehož kabinet si můžeš najít na plánku školy) a popros ho o pomoc.}
 \end{redbox}
 
 \begin{itemize}[leftmargin=10pt]
-  \item  škola nám laskavě poskytuje \textbf{studentský server Penguin} (\textit{penguin.jaroska.cz}), slouží primárně pro projekty studentů; pokud plánuješ třeba uspořádat školní akci, potřebuješ server pro svoji ZMP a nebo jen sháníš úložiště/pískoviště pro svoje vyžití, \textbf{nechceš platit hosting a nevadí ti trochu starší způsob přístupu k souborům}, obrať se na profesory informatiky, kteří tě pak můžou nasměrovat na \textbf{odpovědné správce serveru}; zpravidla to bývá \textbf{někdo ze studentstva}
+	\item  škola nám laskavě poskytuje \textbf{studentský server Penguin} (\textit{penguin.jaroska.cz}), slouží primárně pro projekty studentů; pokud plánuješ třeba uspořádat školní akci, potřebuješ server pro svoji ZMP a nebo jen sháníš úložiště/pískoviště pro svoje vyžití, \textbf{nechceš platit hosting a nevadí ti trochu starší způsob přístupu k souborům}, obrať se na profesory informatiky, kteří tě pak můžou nasměrovat na \textbf{odpovědné správce serveru}; zpravidla to bývá \textbf{někdo ze studentstva}
 \end{itemize}
 
 \podnadpis{ŠKOLNÍ MAILY}
 \begin{itemize}[leftmargin=10pt]
-  \item Každý profesor má založený \textbf{svůj školní mail ve tvaru} \textit{prijmeni@jaroska.cz} (až na výjimky, jako třeba pan profesor Řehák: \textit{czehi@jaroska.cz}), na kterém ho můžeš kontaktovat. S tímhle mailem se většinou nespleteš, ale pro sichr je vždycky lepší se přímo dotyčného profesora \textbf{zeptat, jestli náhodou nemá mail na jiné doméně}, kterou používá častěji -- díky tomu můžeš dostat rychlejší odpověď.
-  \item  Taky ti sem dáme pár důležitých mailů, které by se ti mohly hodit:
-  \begin{itemize}[leftmargin=0pt]
-    \item  ředitel: \textcolor{red}{\textbf{necas@jaroska.cz}}
-    \item statutární zástupce (ten \uv{hlavní}): \textcolor{red}{\textbf{akob@jaroska.cz}}
-    \item zástupkyně (třeba na záležitosti s ISICem): \textcolor{red}{\textbf{sitarova@jaroska.cz}}
-    \item  hospodářka (té napiš při problémech se systémem obědů): \textcolor{red}{\textbf{turcanu@jaroska.cz}}
-  \end{itemize}
+	\item Každý profesor má založený \textbf{svůj školní mail ve tvaru} \textit{prijmeni@jaroska.cz} (až na výjimky, jako třeba pan profesor Řehák: \textit{czehi@jaroska.cz}), na kterém ho můžeš kontaktovat. S tímhle mailem se většinou nespleteš, ale pro sichr je vždycky lepší se přímo dotyčného profesora \textbf{zeptat, jestli náhodou nemá mail na jiné doméně}, kterou používá častěji -- díky tomu můžeš dostat rychlejší odpověď.
+	\item  Taky ti sem dáme pár důležitých mailů, které by se ti mohly hodit:
+	      \begin{itemize}[leftmargin=0pt]
+		      \item  ředitel: \textcolor{red}{\textbf{necas@jaroska.cz}}
+		      \item statutární zástupce (ten \uv{hlavní}): \textcolor{red}{\textbf{akob@jaroska.cz}}
+		      \item zástupkyně (třeba na záležitosti s ISICem): \textcolor{red}{\textbf{sitarova@jaroska.cz}}
+		      \item  hospodářka (té napiš při problémech se systémem obědů): \textcolor{red}{\textbf{turcanu@jaroska.cz}}
+	      \end{itemize}
 \end{itemize}
 
 \newpage
@@ -247,85 +282,85 @@ k dispozici je i španělština, francouzština a ruština
 \podnadpis{VOLITELNÉ PŘEDMĚTY}
 
 \noindent V rámci možností (a našich osnov) jdeme s dobou -- \textbf{pro 3. a 4. ročník si tedy
-můžeš} (respektive musíš) \textbf{vybrat volitelné předměty}. Výčet níže ber s rezervou
+	můžeš} (respektive musíš) \textbf{vybrat volitelné předměty}. Výčet níže ber s rezervou
 (může se cokoli změnit, některé předměty mohou přibýt nebo ubýt). V případě
 nízkého zájmu se rovněž \textbf{některé předměty nemusejí otevřít}, ale v posledních
 letech se snažíme dělat vše pro to, aby byl každý spokojen.
 
 \begin{multicols}{2}
-\noindent \textcolor{red}{\textbf{1. a 2. volitelný předmět} (matematická třída bere jeden, všeobecné berou dva; vybírá se na konci druháku na dva roky)}
-  \begin{itemize}
-    \item 3. cizí jazyk (N, Fr, Š, Ru)
-    \item Cambridge Exam Preparation
-    \item Cvičení z biologie a chemie
-    \item Cvičení z matematiky a fyziky
-    \item Dějiny umění
-    \item Deskriptivní geometrie
-    \item Ekonomika
-    \item Informatika a programování
-    \item Konverzace ve 2. cizím jazyce
-    \item Latina
-    \item Molekulární biologie
-  \end{itemize}
+	\noindent \textcolor{red}{\textbf{1. a 2. volitelný předmět} (matematická třída bere jeden, všeobecné berou dva; vybírá se na konci druháku na dva roky)}
+	\begin{itemize}
+		\item 3. cizí jazyk (N, Fr, Š, Ru)
+		\item Cambridge Exam Preparation
+		\item Cvičení z biologie a chemie
+		\item Cvičení z matematiky a fyziky
+		\item Dějiny umění
+		\item Deskriptivní geometrie
+		\item Ekonomika
+		\item Informatika a programování
+		\item Konverzace ve 2. cizím jazyce
+		\item Latina
+		\item Molekulární biologie
+	\end{itemize}
 
-  \noindent \textcolor{red}{\textbf{3. a 4. volitelný předmět} (matematická třída bere jeden, všeobecné berou dva; vybírá se na konci třeťáku pro maturitní ročník)}
-  \begin{itemize}
-    \item Biologie 2
-    \item Business English
-    \item Dějepis 2
-    \item Finanční gramotnost
-    \item Fyzika 2 (4.B, C nebo D)
-    \item Chemie 2
-    \item Informatika a programování 2
-    \item Konverzace ve 2. cizím jazyce
-    (pokud nezvolena dříve)
-    \item Matematika 2 (4.B, C nebo D)
-    \item Moderní dějiny
-    \item Zeměpis 2
-  \end{itemize}
+	\noindent \textcolor{red}{\textbf{3. a 4. volitelný předmět} (matematická třída bere jeden, všeobecné berou dva; vybírá se na konci třeťáku pro maturitní ročník)}
+	\begin{itemize}
+		\item Biologie 2
+		\item Business English
+		\item Dějepis 2
+		\item Finanční gramotnost
+		\item Fyzika 2 (4.B, C nebo D)
+		\item Chemie 2
+		\item Informatika a programování 2
+		\item Konverzace ve 2. cizím jazyce
+		      (pokud nezvolena dříve)
+		\item Matematika 2 (4.B, C nebo D)
+		\item Moderní dějiny
+		\item Zeměpis 2
+	\end{itemize}
 
-  \vfill\null
+	\vfill\null
 
-  \columnbreak
+	\columnbreak
 
-  \noindent \textcolor{red}{\textbf{Maturitní semináře} (bereš dva, vybírají se na maturitní ročník)}
-  \begin{itemize}
-    \item S. z biologie
-    \item S. z českého jazyka a literatury
-    \item S. z dějepisu
-    \item S. z deskriptivní geometrie (při
-    dřívějším zvolení běžné Deskriptivy)
-    \item S. z ekonomiky (při dřívějším zvolení předmětu Ekonomika)
-    \item S. z fyziky
-    \item S. z chemie
-    \item S. z informatiky
-    \item S. z matematiky (pro 4.B, C a D)
-    \item S. z matematických aplikací (4.A)
-    \item S. ze společenských věd
-    \item S. ze zeměpisu
-  \end{itemize}
+	\noindent \textcolor{red}{\textbf{Maturitní semináře} (bereš dva, vybírají se na maturitní ročník)}
+	\begin{itemize}
+		\item S. z biologie
+		\item S. z českého jazyka a literatury
+		\item S. z dějepisu
+		\item S. z deskriptivní geometrie (při
+		      dřívějším zvolení běžné Deskriptivy)
+		\item S. z ekonomiky (při dřívějším zvolení předmětu Ekonomika)
+		\item S. z fyziky
+		\item S. z chemie
+		\item S. z informatiky
+		\item S. z matematiky (pro 4.B, C a D)
+		\item S. z matematických aplikací (4.A)
+		\item S. ze společenských věd
+		\item S. ze zeměpisu
+	\end{itemize}
 
-  \noindent \textcolor{red}{\textbf{Sport} (bereš jeden, vybírá se na konci třeťáku pro maturitní ročník)}
-  \begin{itemize}
-    \item Fotbal
-    \item Plavání
-    \item Posilování
-    \item Squash
-    \item Tanec
-    \item Volejbal
-  \end{itemize}
+	\noindent \textcolor{red}{\textbf{Sport} (bereš jeden, vybírá se na konci třeťáku pro maturitní ročník)}
+	\begin{itemize}
+		\item Fotbal
+		\item Plavání
+		\item Posilování
+		\item Squash
+		\item Tanec
+		\item Volejbal
+	\end{itemize}
 
-  \begin{tcolorbox}[colback=red,boxrule=0pt, sharp corners]
-    \textcolor{white}{\footnotesize \textbf{Poznámka.}
-     Některé předměty jsou označeny pro třídy X.A apod. Osnovy matematické a všeobecné třídy se trochu liší, a proto jim musí být
-      uzpůsoben i repertoár volitelných předmětů.
-      Výčet nemusí být kompletní:
-      neustále se snažíme vymýšlet nové smysluplné
-      předměty -- hlavně do čtvrťáku. A některé ze
-      seznamu se vůbec nemusejí otevřít.}
+	\begin{tcolorbox}[colback=red,boxrule=0pt, sharp corners]
+		\textcolor{white}{\footnotesize \textbf{Poznámka.}
+			Některé předměty jsou označeny pro třídy X.A apod. Osnovy matematické a všeobecné třídy se trochu liší, a proto jim musí být
+			uzpůsoben i repertoár volitelných předmětů.
+			Výčet nemusí být kompletní:
+			neustále se snažíme vymýšlet nové smysluplné
+			předměty -- hlavně do čtvrťáku. A některé ze
+			seznamu se vůbec nemusejí otevřít.}
 
-      \hfill
-\end{tcolorbox}
+		\hfill
+	\end{tcolorbox}
 \end{multicols}
 
 \newpage
@@ -336,33 +371,33 @@ Na vyřizování formalit tu máme \textbf{školní kancelář}. \textbf{Najdeš
 navigaci můžeš použít schéma školy na začátku.
 Využiješ ji hlavně na:
 \begin{itemize}[leftmargin=10pt]
-  \item \textbf{potvrzení o studiu} -- na šalinkartu nebo úlevy na daních
-  \item \textbf{čip do jídelny} -- o tom ti víc řekneme v odstavci Jídelna (str. 9)
-  \item \textbf{čip k výtahu} -- pokud si přivodíš úraz v naší (krásné!) tělocvičně
-  \item \textbf{ztráty a nálezy} -- buď tady, nebo na vrátnici
-  \item \textbf{hlášení úrazů} -- abychom ti mohli třeba vyjednat odškodné
+	\item \textbf{potvrzení o studiu} -- na šalinkartu nebo úlevy na daních
+	\item \textbf{čip do jídelny} -- o tom ti víc řekneme v odstavci Jídelna (str. 9)
+	\item \textbf{čip k výtahu} -- pokud si přivodíš úraz v naší (krásné!) tělocvičně
+	\item \textbf{ztráty a nálezy} -- buď tady, nebo na vrátnici
+	\item \textbf{hlášení úrazů} -- abychom ti mohli třeba vyjednat odškodné
 \end{itemize}
 
 \podnadpis{JEŽDĚNÍ VÝTAHEM}
 \begin{minipage}{0.65\linewidth}
-  Schody tu jsou pro každého, výtah ne úplně. Nějaký dobrák profesor tě občas sveze, i když jsi mohoucí, ale je jich menšina (jak by to tady pak vypadalo), a~\textbf{proto se povolení na použití výtahu rozdávají až na základě nějakého relevantního zranění}. \\
-  Podání žádosti probíhá tak, že \textbf{poprosíš svého třídního učitele o podepsaný formulář}, s tím budeš muset \textbf{skočit do kanceláře} (což se ti se zlomenou nohou možná bude dělat blbě), kde ti sdělí \textbf{tajný kód}, \textbf{který pak budeš muset říct profesoru Blahovi a na tvůj
-  obědový čip ti nahraje kód na výtah} -- budeš tak mít už dva důvody ho neztratit.
+	Schody tu jsou pro každého, výtah ne úplně. Nějaký dobrák profesor tě občas sveze, i když jsi mohoucí, ale je jich menšina (jak by to tady pak vypadalo), a~\textbf{proto se povolení na použití výtahu rozdávají až na základě nějakého relevantního zranění}. \\
+	Podání žádosti probíhá tak, že \textbf{poprosíš svého třídního učitele o podepsaný formulář}, s tím budeš muset \textbf{skočit do kanceláře} (což se ti se zlomenou nohou možná bude dělat blbě), kde ti sdělí \textbf{tajný kód}, \textbf{který pak budeš muset říct profesoru Blahovi a na tvůj
+		obědový čip ti nahraje kód na výtah} -- budeš tak mít už dva důvody ho neztratit.
 \end{minipage}
 \begin{minipage}{0.35\linewidth}
-  \centering
-      \includegraphics[width=\linewidth]{vytah.png}
+	\centering
+	\includegraphics[width=\linewidth]{vytah.png}
 \end{minipage}
 \vspace{0pt}\\
 \noindent
 Výtah samotný se pak používá tak, že se \textbf{prvně pípneš čipem na bílou krabičku
-vlevo od výtahových dveří a až pak si zmáčkneš tlačítko přivolání}. \\
+	vlevo od výtahových dveří a až pak si zmáčkneš tlačítko přivolání}. \\
 Ve zkratce: nemohoucí a profesoři jezdí výtahem, ostatní nejezdí (a nebo jezdí jen
 velmi opatrně). Přejeme pěknou jízdu!
 
 
 \begin{redbox}
-  \textcolor{white}{\footnotesize \textbf{Poznámka.} Ne že bys nejen nesměl jezdit zdravý výtahem, ono to taky dost dobře nejde. Bez oprávnění na čipu tě výtah prostě nebude poslouchat a nepřijede ti. Když už je mysteriózně otevřen na patře prázdný, nikdo ti asi nebude fyzicky bránit do něj naskočit a odjet – ale pokud tě při tom načapá profesor, který to nemá rád, dostaneš bídu. Takže bacha.}
+	\textcolor{white}{\footnotesize \textbf{Poznámka.} Ne že bys nejen nesměl jezdit zdravý výtahem, ono to taky dost dobře nejde. Bez oprávnění na čipu tě výtah prostě nebude poslouchat a nepřijede ti. Když už je mysteriózně otevřen na patře prázdný, nikdo ti asi nebude fyzicky bránit do něj naskočit a odjet – ale pokud tě při tom načapá profesor, který to nemá rád, dostaneš bídu. Takže bacha.}
 \end{redbox}
 
 \podnadpis{A CO ISIC?}
@@ -376,36 +411,36 @@ Ačkoli nám do toho Covid v posledních letech házel vidle, jezdíme i na výl
 \textbf{V~každém ročníku tě čeká jeden} -- \textbf{tady je jejich přehled}.
 
 \begin{itemize}[leftmargin=10pt]
-  \item \textcolor{red}{\textbf{Prvák a druhák:}} \textbf{třídenní výlet}, který si volí třída, lze protáhnout i do víkendu
-  \item \textcolor{red}{\textbf{Třeťák:}} každý rok jsou připraveny \textbf{čtyři sportovní kurzy}, ze kterých si každý student zvolí jeden: \textbf{vodácký kurz}, \textbf{vysokohorská turistika}, \textbf{zájezd do Chorvatska}, \textbf{windsurfing}
-  \item \textcolor{red}{\textbf{Čtvrťák:}} \textbf{třídenní literárně-historická exkurze do Prahy}
+	\item \textcolor{red}{\textbf{Prvák a druhák:}} \textbf{třídenní výlet}, který si volí třída, lze protáhnout i do víkendu
+	\item \textcolor{red}{\textbf{Třeťák:}} každý rok jsou připraveny \textbf{čtyři sportovní kurzy}, ze kterých si každý student zvolí jeden: \textbf{vodácký kurz}, \textbf{vysokohorská turistika}, \textbf{zájezd do Chorvatska}, \textbf{windsurfing}
+	\item \textcolor{red}{\textbf{Čtvrťák:}} \textbf{třídenní literárně-historická exkurze do Prahy}
 \end{itemize}
 
 \begin{redbox}
-  \begin{minipage}{0.32\linewidth}
-    \includegraphics[width=\linewidth]{tatry.jpg}
-    \centering \textcolor{white}{Krásné výhledy v Tatrách.}
-  \end{minipage}
-  \hfill
-  \begin{minipage}{0.32\linewidth}
-    \includegraphics[width=\linewidth]{dulezite.jpg}
-    \centering \textcolor{white}{aa}
-  \end{minipage}
-  \hfill
-  \begin{minipage}{0.32\linewidth}
-    \includegraphics[width=\linewidth]{dulezite.jpg}
-    \centering \textcolor{white}{aa}
-  \end{minipage}
+	\begin{minipage}{0.32\linewidth}
+		\includegraphics[width=\linewidth]{tatry.jpg}
+		\centering \textcolor{white}{Krásné výhledy v Tatrách.}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.32\linewidth}
+		\includegraphics[width=\linewidth]{dulezite.jpg}
+		\centering \textcolor{white}{aa}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.32\linewidth}
+		\includegraphics[width=\linewidth]{dulezite.jpg}
+		\centering \textcolor{white}{aa}
+	\end{minipage}
 \end{redbox}
 
 \podnadpis{MIMOŠKOLNÍ AKTIVITY}
 \begin{itemize}[leftmargin=10pt]
-  \item \textbf{Česká středoškolská unie (ČSU)} zastupuje a hájí zájmy českých středoškoláků,  podporuje všeobecné vzdělávání, metodickou pestrost a inovace ve výuce, zasazuje se o zlepšování vzdělávací soustavy jako celku
-  \item \textbf{Soutěž a podnikej} je organizace nabízející životní příležitost rozvinout svůj nápad v reálný podnikatelský záměr
-  \item \textbf{Yoda mentorship} rozvíjí nadané a aktivní středoškoláky prostřednictvím individuálního mentoringu
-  \item \textbf{Bakala foundation} podporuje studium talentovaných studentů na prestižních zahraničních univerzitách
-  \item \textbf{Školní sbor} zkouší každé úterý po konci vyučování a pravidelně hraje na slavnostech školy či jiných významných událostech, přihlásit se do něj může kdokoliv, kdo umí zpívat (ono by se na to stejně přišlo)
-  \item \textbf{Hudebna jako zkušebna} -- Ať už si chceš založit fungl novou kapelu nebo si jen zahrát, můžeš se domluvit s profesorkou Ambrozovou, která tobě a tvojí partě ráda půjčí klíče od hudebny, kde je plno nástrojů, a budete tak moct povyučování zkoušet!
+	\item \textbf{Česká středoškolská unie (ČSU)} zastupuje a hájí zájmy českých středoškoláků,  podporuje všeobecné vzdělávání, metodickou pestrost a inovace ve výuce, zasazuje se o zlepšování vzdělávací soustavy jako celku
+	\item \textbf{Soutěž a podnikej} je organizace nabízející životní příležitost rozvinout svůj nápad v reálný podnikatelský záměr
+	\item \textbf{Yoda mentorship} rozvíjí nadané a aktivní středoškoláky prostřednictvím individuálního mentoringu
+	\item \textbf{Bakala foundation} podporuje studium talentovaných studentů na prestižních zahraničních univerzitách
+	\item \textbf{Školní sbor} zkouší každé úterý po konci vyučování a pravidelně hraje na slavnostech školy či jiných významných událostech, přihlásit se do něj může kdokoliv, kdo umí zpívat (ono by se na to stejně přišlo)
+	\item \textbf{Hudebna jako zkušebna} -- Ať už si chceš založit fungl novou kapelu nebo si jen zahrát, můžeš se domluvit s profesorkou Ambrozovou, která tobě a tvojí partě ráda půjčí klíče od hudebny, kde je plno nástrojů, a budete tak moct povyučování zkoušet!
 \end{itemize}
 
 \newpage
@@ -415,38 +450,38 @@ Ačkoli nám do toho Covid v posledních letech házel vidle, jezdíme i na výl
 V přízemí máme samozřejmě \textbf{jídelnu}. V ní je každý školní den na výběr ze tří obědů, zpravidla dvou teplých jídel a jednoho salátu v krabičce. Ceny se pohybují v rozmezí \textbf{42 až 52 korun} (ovšem záleží na věku), v ceně je i polévka a pití.
 
 \begin{itemize}[leftmargin=10pt]
-  \item \textbf{objednávat lze dvěma způsoby}: nejlepší je, když půjdeš na \textit{jidelna.jaroska.cz} a objednáš si tam, máme ale i fyzickou \uv{narážečku} před jídelnou, kde se naskenuješ čipem a můžeš objednávat
-  \item \textbf{nejzažší termín} pro objednání oběda je \textbf{do 10 hodin} předchozího pracovního dne (takže oběd na pondělí si musíš objednat už v pátek ráno)
+	\item \textbf{objednávat lze dvěma způsoby}: nejlepší je, když půjdeš na \textit{jidelna.jaroska.cz} a objednáš si tam, máme ale i fyzickou \uv{narážečku} před jídelnou, kde se naskenuješ čipem a můžeš objednávat
+	\item \textbf{nejzažší termín} pro objednání oběda je \textbf{do 10 hodin} předchozího pracovního dne (takže oběd na pondělí si musíš objednat už v pátek ráno)
 \end{itemize}
 
 \podnadpisf{BURZA}
 Stejný termín jako přihlášení obědů má i \textbf{odhlášení obědů}. Pokud onemocníš, \textbf{můžeš odhlásit oběd taky nejpozději do 10 hodin} předchozího pracovního dne. Pokud to nestihneš, můžeš ho pořád hodit do burzy. Pokud si oběd zapomenš objednat, můžeš zkusit štěstí tady. Jestli si někdo tebou odhlášený oběd koupí, zaplatí peníze místo tebe. Pokud ne, zaplatíš je ty.
 
 \begin{bluebox}
-  \textcolor{white}{
-    \textbf{Pozor!} Na naší škole platí následující úsporné opatření. Stát normálně dotuje velkou  část obědů. Pokud si ho ale koupíš a následně nevyzvedneš, zaplatíš plnou cenu!
-  }
+	\textcolor{white}{
+		\textbf{Pozor!} Na naší škole platí následující úsporné opatření. Stát normálně dotuje velkou  část obědů. Pokud si ho ale koupíš a následně nevyzvedneš, zaplatíš plnou cenu!
+	}
 \end{bluebox}
 
 \podnadpisf{OBĚDVÁNÍ}
 Jídelnu máme denně otevřenou \textbf{od 11.20 do 14.00}. V téhle době o vytyčené přestávce (ačkoli pokud půjdeš o volné hodině, nikomu asi vadit nebudeš) si můžeš vyzvednout svůj oběd. Pro bezkonfliktní předání doporučujeme být \textbf{přezutý} (na to jsou kuchařky fakt háklivé) a batoh a bundu si nechej v nových držácích před jídelnou. \textbf{Vstoupíš dveřmi na konci chodby}, vezmeš si tácek, příbor, můžeš přibrat cestou i pití s polívkou. U výdeje se pípneš čipem a po vydání obědu už je čas zmizet ke stolu.
 \vspace{7pt}
 \begin{bluebox}
-  \textcolor{white}{\footnotesize
-  \textbf{Náš tip.} V případě úplně nejhoršího scénáře, kdy si zapomeneš objednat jídlo a v burze nic není, můžeš zkusit dojít čtvrt hodiny před druhou a hodit na kuchařky psí oči, třeba ti něco dají. A i když se nevyvede s hlavním chodem, většinou ti dovolí vzít si polívku (ale od nás to nemáš!).}
+	\textcolor{white}{\footnotesize
+		\textbf{Náš tip.} V případě úplně nejhoršího scénáře, kdy si zapomeneš objednat jídlo a v burze nic není, můžeš zkusit dojít čtvrt hodiny před druhou a hodit na kuchařky psí oči, třeba ti něco dají. A i když se nevyvede s hlavním chodem, většinou ti dovolí vzít si polívku (ale od nás to nemáš!).}
 \end{bluebox}
 
 \podnadpisf{ZAPOMENUTÝ ČIP}
 To se taky stává. Nic se neděje, stačí v průběhu dopoledne \textbf{dojít za paní
-sekretářkou}. Ta ověří tvoji volbu oběda v systému, vypíše ti \textbf{příslušný lísteček
-a tím se prokážeš} v jídelně.
+	sekretářkou}. Ta ověří tvoji volbu oběda v systému, vypíše ti \textbf{příslušný lísteček
+	a tím se prokážeš} v jídelně.
 
 \pagebreak
 \podnadpisf{ABSENCE}
 Nebudeme to okecávat. Tady je flowchart, který je lepší než tisíc slov.
 \vfill
 \begin{center}
-  \includegraphics[width=0.95\linewidth]{absence.png}
+	\includegraphics[width=0.95\linewidth]{absence.png}
 \end{center}
 
 \vspace{5em}
@@ -456,12 +491,12 @@ Nebudeme to okecávat. Tady je flowchart, který je lepší než tisíc slov.
 Každý učitel má vymyšlené své způsoby známkování. \textbf{Většina se drží u staré dobré škály 1--5}, někteří ale dávají body a jiní zase procenta. Kvůli českým zákonům se ale \textbf{ve výsledku vše převede na klasické známky} (a proto nejenže budeš u těchto \uv{alternativních} systémů poučen, kolik procent je jaká známka, ale \textbf{všichni učitelé} v září mají \textbf{povinnost poslat na EduPage pravidla klasifikace}).
 
 \begin{bluebox}
-\textcolor{white}{\subsection*{EDUPAGE (většinou jen EP)}
-\textbf{Naše elektronická třídnice.} Zavedli jsme ji na začátku roku 2020, takže \textbf{prošla doslova zkouškou ohněm} -- a úspěšně (i když to je diskutabilní). Občas na EP nadáváme, ale to snad ani
-nejde jinak. \\
-Faktem je, že tam najdeš \textbf{úplně všechno} -- rozvrhy, suplování, úkoly, hlasování, známky, absence, prezentace, ... A to všechno na kvadrát. \\
-A taky si tam můžeš psát s učiteli.
-}
+	\textcolor{white}{\subsection*{EDUPAGE (většinou jen EP)}
+		\textbf{Naše elektronická třídnice.} Zavedli jsme ji na začátku roku 2020, takže \textbf{prošla doslova zkouškou ohněm} -- a úspěšně (i když to je diskutabilní). Občas na EP nadáváme, ale to snad ani
+		nejde jinak. \\
+		Faktem je, že tam najdeš \textbf{úplně všechno} -- rozvrhy, suplování, úkoly, hlasování, známky, absence, prezentace, ... A to všechno na kvadrát. \\
+		A taky si tam můžeš psát s učiteli.
+	}
 \end{bluebox}
 
 \podnadpisf{INDIVIDUÁLNÍ STUDIJNÍ PLÁN (též INDIVIDUÁL či ISP)}
@@ -470,9 +505,9 @@ ISP nemusí dávat podmínky pro úplně všechny předměty. Bohatě stačí, k
 s \textbf{jednotlivými kantory domluvíš} na tom, jak se bude klasifikovat. Ustálená praxe pro studenty na ISP je taková, že si \textbf{jednou za čtvrtletí docházejí napsat opakovací testy} z jednotlivých předmětů.
 
 \begin{bluebox}
-  \textcolor{white}{\subsection*{OMLUVENÍ Z TĚLOCVIKU}
-  To by jen tak nešlo. Nejdřív ti \textbf{doktor musí vydat nějaké lejstro} či potvrzení o tom, že do toho tělocviku prostě nemůžeš chodit, pak ho předáš nám a... jsi omluven. Bude tam ještě trocha papírování, ale snažíme se vycházet vstříc (nebudeme, proboha, nikoho nutit cvičit se sádrou). V prváku také podstupujeme \textbf{test plavecké zdatnosti}, kterému se nevyhneš bez uvolnění. Pokud na něj v prváku nepřijdeš, půjdeš ve druháku. Tak důslední jsme. (Pokud nepřijdeš v druháku, přijdeš ve třeťáku. Pokud nepřijdeš ve třeťáku a zvolíš si vodácký kurz, budeš zkoušky provádět na místě před všemi svými spolužáky.)
-  }
+	\textcolor{white}{\subsection*{OMLUVENÍ Z TĚLOCVIKU}
+		To by jen tak nešlo. Nejdřív ti \textbf{doktor musí vydat nějaké lejstro} či potvrzení o tom, že do toho tělocviku prostě nemůžeš chodit, pak ho předáš nám a... jsi omluven. Bude tam ještě trocha papírování, ale snažíme se vycházet vstříc (nebudeme, proboha, nikoho nutit cvičit se sádrou). V prváku také podstupujeme \textbf{test plavecké zdatnosti}, kterému se nevyhneš bez uvolnění. Pokud na něj v prváku nepřijdeš, půjdeš ve druháku. Tak důslední jsme. (Pokud nepřijdeš v druháku, přijdeš ve třeťáku. Pokud nepřijdeš ve třeťáku a zvolíš si vodácký kurz, budeš zkoušky provádět na místě před všemi svými spolužáky.)
+	}
 \end{bluebox}
 
 \podnadpisf{A CO JINAK?}
@@ -496,51 +531,51 @@ Dvakrát do roka si vybraná vysokoškolská pracoviště pozvou středoškolák
 \noindent Níže pak už najdeš jen výčet dalších soutěží dle kategorií (který určitě není vyčerpávající). Jejich hlavní cenou je obvykle dobrý pocit nebo možnost účasti na \textbf{dedikovaném soustředění}, kde se můžeš setkat s obdobně divnými lidmi jako jsi ty sám. Jednotlivé soutěže se liší jak obtížností, tak časovou náročností. Každý si tak může najít svoji optimální, do které se mu bude chtít investovat energie.
 
 \begin{multicols}{3}
-  \footnotesize
-  \noindent\textcolor{green}{Matematika:}
-  \begin{itemize}[leftmargin=10pt]
-    \item BrKoS
-    \item MaSo
-    \item KoMár
-    \item Matematický náboj
-    \item Mathrace
-    \item Prase
-  \end{itemize}
-  \textcolor{green}{Chemie:}
-  \begin{itemize}[leftmargin=10pt]
-    \item VíBuCh
-    \item Chemiklání
-    \item Ksicht
-  \end{itemize}
-  \vfill\null\columnbreak
-    \textcolor{green}{Biologie:}
-    \begin{itemize}[leftmargin=10pt]
-      \item Biozvěst
-      \item IBIS
-    \end{itemize}
-    \textcolor{green}{Informatika:}
-    \begin{itemize}[leftmargin=10pt]
-      \item FIKS
-      \item MOROUS
-      \item Ksicht
-      \item IKS
-    \end{itemize}
-\vfill\null\columnbreak
-      \textcolor{green}{Fyzika:}
-      \begin{itemize}[leftmargin=10pt]
-        \item Fykos
-        \item Fyziklání
-        \item Fyzikální náboj
-        \item TSAF, DSEF, VAG
-      \end{itemize}
-      \textcolor{green}{Šifrovačky:}
-      \begin{itemize}[leftmargin=10pt]
-        \item Tmou, Dnem
-        \item BrLoH
-        \item Intersob, Interlos
-        \item LamoLamy
-      \end{itemize}
-      \vspace*{1em}
+	\footnotesize
+	\noindent\textcolor{green}{Matematika:}
+	\begin{itemize}[leftmargin=10pt]
+		\item BrKoS
+		\item MaSo
+		\item KoMár
+		\item Matematický náboj
+		\item Mathrace
+		\item Prase
+	\end{itemize}
+	\textcolor{green}{Chemie:}
+	\begin{itemize}[leftmargin=10pt]
+		\item VíBuCh
+		\item Chemiklání
+		\item Ksicht
+	\end{itemize}
+	\vfill\null\columnbreak
+	\textcolor{green}{Biologie:}
+	\begin{itemize}[leftmargin=10pt]
+		\item Biozvěst
+		\item IBIS
+	\end{itemize}
+	\textcolor{green}{Informatika:}
+	\begin{itemize}[leftmargin=10pt]
+		\item FIKS
+		\item MOROUS
+		\item Ksicht
+		\item IKS
+	\end{itemize}
+	\vfill\null\columnbreak
+	\textcolor{green}{Fyzika:}
+	\begin{itemize}[leftmargin=10pt]
+		\item Fykos
+		\item Fyziklání
+		\item Fyzikální náboj
+		\item TSAF, DSEF, VAG
+	\end{itemize}
+	\textcolor{green}{Šifrovačky:}
+	\begin{itemize}[leftmargin=10pt]
+		\item Tmou, Dnem
+		\item BrLoH
+		\item Intersob, Interlos
+		\item LamoLamy
+	\end{itemize}
+	\vspace*{1em}
 \end{multicols}
 
 \normalsize
@@ -552,149 +587,149 @@ Dvakrát do roka si vybraná vysokoškolská pracoviště pozvou středoškolák
 
 \noindent
 \begin{minipage}{0.7\textwidth}
-  \podnadpisy{MILADY KAFFEE}
-  \textcolor{yellow}{Po--Pá: 8--19 hod $\bullet$ So, Ne: 9--19 hod}
-  \vspace{5pt}
-  \small
-  \begin{itemize}[leftmargin=10pt]
-    \item \textbf{2 minuty} pěšky
-    \item značka kávy: \textbf{Coffee Collective} (z Dánska), \textbf{The Space Coffee} (z Brna)
-    \item všechno jídlo je \textbf{vegetariánské}
-    \item v létě mají \textbf{zahrádku} a každý rok je tu \textbf{blešák} (viz FB)
-    \item obsluha doporučuje \textbf{caprese sendvič} s domácím pestem
-  \end{itemize}
+	\podnadpisy{MILADY KAFFEE}
+	\textcolor{yellow}{Po--Pá: 8--19 hod $\bullet$ So, Ne: 9--19 hod}
+	\vspace{5pt}
+	\small
+	\begin{itemize}[leftmargin=10pt]
+		\item \textbf{2 minuty} pěšky
+		\item značka kávy: \textbf{Coffee Collective} (z Dánska), \textbf{The Space Coffee} (z Brna)
+		\item všechno jídlo je \textbf{vegetariánské}
+		\item v létě mají \textbf{zahrádku} a každý rok je tu \textbf{blešák} (viz FB)
+		\item obsluha doporučuje \textbf{caprese sendvič} s domácím pestem
+	\end{itemize}
 \end{minipage}
 \hfill
 \begin{minipage}{0.27\textwidth}
-  \includegraphics[width=\linewidth]{dulezite.jpg}
+	\includegraphics[width=\linewidth]{dulezite.jpg}
 \end{minipage}
 \\
 
 \begin{yellowbox}
-  \begin{minipage}{0.27\textwidth}
-    \includegraphics[width=\linewidth]{dulezite.jpg}
-  \end{minipage}
-  \hfill
-  \begin{minipage}{0.7\textwidth}
-    \vspace{-5pt}
-    \textcolor{white}{
-    \subsection*{PELÍŠEK -- kočičí kavárna}
-    Po--Pá: 10--21 hod $\bullet$ So, Ne: 13--19 hod
-    \small
-    \begin{itemize}[leftmargin=10pt]
-      \item \textbf{3 minuty} pěšky
-      \item značka kávy: různá se, hlavně \uv{\textbf{mini pražírny}}
-      \item \textbf{super na práci a učení} (pokud sneseš kočky)
-      \item \textbf{je veganský}, najdeš tam veganské toasty i dezerty
-      \item kteroukoli tamější kočičku si \textbf{můžeš adoptovat}
-      \item obsluha doporučuje \textbf{espresso s višňovým tonicem} a \textbf{naked dorty}
-    \end{itemize}
-    }
-  \end{minipage}
+	\begin{minipage}{0.27\textwidth}
+		\includegraphics[width=\linewidth]{dulezite.jpg}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.7\textwidth}
+		\vspace{-5pt}
+		\textcolor{white}{
+			\subsection*{PELÍŠEK -- kočičí kavárna}
+			Po--Pá: 10--21 hod $\bullet$ So, Ne: 13--19 hod
+			\small
+			\begin{itemize}[leftmargin=10pt]
+				\item \textbf{3 minuty} pěšky
+				\item značka kávy: různá se, hlavně \uv{\textbf{mini pražírny}}
+				\item \textbf{super na práci a učení} (pokud sneseš kočky)
+				\item \textbf{je veganský}, najdeš tam veganské toasty i dezerty
+				\item kteroukoli tamější kočičku si \textbf{můžeš adoptovat}
+				\item obsluha doporučuje \textbf{espresso s višňovým tonicem} a \textbf{naked dorty}
+			\end{itemize}
+		}
+	\end{minipage}
 \end{yellowbox}
 
 \noindent \begin{minipage}{0.7\textwidth}
-    \podnadpisy{COFFE TRAIL}
-  \textcolor{yellow}{Po--Pá: 8--20 hod $\bullet$ So, Ne: 9--16 hod}
-  \vspace{5pt}
-  \small
-  \begin{itemize}[leftmargin=10pt]
-    \item \textbf{7 minut} pěšky
-    \item značka kávy: \textbf{Fifty Beans} (brněnská pražírna)
-    \item mají velký výběr \textbf{snídaní} a denně jiné \textbf{polévky}
-    \item chleba odebírají z \textbf{Chleba Brno} a jsou všeobecně bio
-    \item obsluha doporučuje \textbf{banana bread}
-  \end{itemize}
+	\podnadpisy{COFFE TRAIL}
+	\textcolor{yellow}{Po--Pá: 8--20 hod $\bullet$ So, Ne: 9--16 hod}
+	\vspace{5pt}
+	\small
+	\begin{itemize}[leftmargin=10pt]
+		\item \textbf{7 minut} pěšky
+		\item značka kávy: \textbf{Fifty Beans} (brněnská pražírna)
+		\item mají velký výběr \textbf{snídaní} a denně jiné \textbf{polévky}
+		\item chleba odebírají z \textbf{Chleba Brno} a jsou všeobecně bio
+		\item obsluha doporučuje \textbf{banana bread}
+	\end{itemize}
 \end{minipage}
 \hfill
 \begin{minipage}{0.27\textwidth}
-  \includegraphics[width=\linewidth]{dulezite.jpg}
+	\includegraphics[width=\linewidth]{dulezite.jpg}
 \end{minipage}
 
 \begin{yellowbox}
-  \begin{minipage}{0.23\textwidth}
-    \vspace*{-8em}
-    \includegraphics[width=\linewidth]{friedrich.jpg}
-  \end{minipage}
-  \hfill
-  \begin{minipage}{0.7\textwidth}
-    \vspace{-5pt}
-    \textcolor{white}{
-    \subsection*{KAFE FRIEDRICH}
-    Po--Pá: 8--20 hod $\bullet$ So, Ne: 10--18 hod
-    \small
-    \begin{itemize}[leftmargin=10pt]
-      \item \textbf{10 minut} pěšky
-      \item značka kávy: výběrová \textbf{La Cabra} (z Dánska)
-      \item vše je \textbf{veganské} a \textbf{lokální}, včetně jejich skvělých brunchů
-      \item KafeFriedrich najdeš na Gastromapě Lukáše Hejlíka
-      \item obsluha doporučuje \textbf{skořicové šneky}
-    \end{itemize}
-    }
-    \vspace{10em}
-  \end{minipage}
+	\begin{minipage}{0.23\textwidth}
+		\vspace*{-8em}
+		\includegraphics[width=\linewidth]{friedrich.jpg}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.7\textwidth}
+		\vspace{-5pt}
+		\textcolor{white}{
+			\subsection*{KAFE FRIEDRICH}
+			Po--Pá: 8--20 hod $\bullet$ So, Ne: 10--18 hod
+			\small
+			\begin{itemize}[leftmargin=10pt]
+				\item \textbf{10 minut} pěšky
+				\item značka kávy: výběrová \textbf{La Cabra} (z Dánska)
+				\item vše je \textbf{veganské} a \textbf{lokální}, včetně jejich skvělých brunchů
+				\item KafeFriedrich najdeš na Gastromapě Lukáše Hejlíka
+				\item obsluha doporučuje \textbf{skořicové šneky}
+			\end{itemize}
+		}
+		\vspace{10em}
+	\end{minipage}
 \end{yellowbox}
 
 \pagebreak
 \noindent
 \begin{minipage}{0.7\textwidth}
-  \podnadpisy{MYMIKA}
-  \textcolor{yellow}{Po--Pá: 8--19 hod $\bullet$ So, Ne: 9--18 hod}
-  \vspace{5pt}
-  \small
-  \begin{itemize}[leftmargin=10pt]
-    \item \textbf{8 minut} pěšky
-    \item značka kávy: \textbf{Coffee Source} (česká pražírna) a další
-    \item bohatý výběr \textbf{snídaní a svačin} (od hummusu po quesadillu)
-    \item jejich specialitou jsou \textbf{raw dezerty}; a za zkoušku stojí i \textbf{smoothie} \uv{zelený zasyťovač}
-    \item i Mymiku najdeš na Gastromapě Lukáše Hejlíka
-    \item obsluha doporučuje \textbf{překapávané kafčo z filtru V60}
-  \end{itemize}
+	\podnadpisy{MYMIKA}
+	\textcolor{yellow}{Po--Pá: 8--19 hod $\bullet$ So, Ne: 9--18 hod}
+	\vspace{5pt}
+	\small
+	\begin{itemize}[leftmargin=10pt]
+		\item \textbf{8 minut} pěšky
+		\item značka kávy: \textbf{Coffee Source} (česká pražírna) a další
+		\item bohatý výběr \textbf{snídaní a svačin} (od hummusu po quesadillu)
+		\item jejich specialitou jsou \textbf{raw dezerty}; a za zkoušku stojí i \textbf{smoothie} \uv{zelený zasyťovač}
+		\item i Mymiku najdeš na Gastromapě Lukáše Hejlíka
+		\item obsluha doporučuje \textbf{překapávané kafčo z filtru V60}
+	\end{itemize}
 \end{minipage}
 \hfill
 \begin{minipage}{0.27\textwidth}
-  \includegraphics[width=\linewidth]{mymika.jpg}
+	\includegraphics[width=\linewidth]{mymika.jpg}
 \end{minipage}
 
 
 \begin{yellowbox}
-  \begin{minipage}{0.27\textwidth}
-    \includegraphics[width=\linewidth]{pole.jpg}
-  \end{minipage}
-  \hfill
-  \begin{minipage}{0.7\textwidth}
-    \vspace{-5pt}
-    \textcolor{white}{
-    \subsection*{KAVÁRNA POLE}
-    Po--Pá: 8--22 hod $\bullet$ So, Ne: 9--22 hod
-    \small
-    \begin{itemize}[leftmargin=10pt]
-      \item z nám. 28. října jeď jednu zastávku šalinou na Dětskou nemocnici, pak je to za rohem
-      \item značka kávy: \textbf{Vescovi} (italská rodinná značka) a \textbf{Mamacoffee} (z Prahy)
-      \item mají od všeho něco: solidní výběr \textbf{snídaní}, \textbf{panini} i sladkých \textbf{domácích dezertů}
-      \item obsluha doporučuje \textbf{olivový bagel}, naše redakce zase \textbf{zapečený toust s vejcemi}
-    \end{itemize}
-    }
-  \end{minipage}
+	\begin{minipage}{0.27\textwidth}
+		\includegraphics[width=\linewidth]{pole.jpg}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.7\textwidth}
+		\vspace{-5pt}
+		\textcolor{white}{
+			\subsection*{KAVÁRNA POLE}
+			Po--Pá: 8--22 hod $\bullet$ So, Ne: 9--22 hod
+			\small
+			\begin{itemize}[leftmargin=10pt]
+				\item z nám. 28. října jeď jednu zastávku šalinou na Dětskou nemocnici, pak je to za rohem
+				\item značka kávy: \textbf{Vescovi} (italská rodinná značka) a \textbf{Mamacoffee} (z Prahy)
+				\item mají od všeho něco: solidní výběr \textbf{snídaní}, \textbf{panini} i sladkých \textbf{domácích dezertů}
+				\item obsluha doporučuje \textbf{olivový bagel}, naše redakce zase \textbf{zapečený toust s vejcemi}
+			\end{itemize}
+		}
+	\end{minipage}
 \end{yellowbox}
 
 \begin{minipage}{0.7\textwidth}
-  \podnadpisy{ANODA$^+$}
-  \textcolor{yellow}{Po--Čt: 8--23 hod $\bullet$ Pá: 8--2 hod $\bullet$ So: 8--1 hod $\bullet$ Ne: 8--22 hod}
-  \vspace{5pt}
-  \small
-  \begin{itemize}[leftmargin=10pt]
-    \item \textbf{3 minuty} pěšky (hned za Pelíškem)
-    \item značka kávy: \textbf{Rusty Nails Coffee Roasters} a další
-    \item jídla tolik nemají, ale jejich sendvič stojí za to
-    \item zletilí studenti si mohou dát výborné pivo \textbf{Kočovný Kozi}
-    \item v Anodě se párkrát do měsíce hraje \textbf{živé techno}
-    \item na pití doporučuje obsluha \textbf{espresso tonic} a \textbf{kakao}
-  \end{itemize}
+	\podnadpisy{ANODA$^+$}
+	\textcolor{yellow}{Po--Čt: 8--23 hod $\bullet$ Pá: 8--2 hod $\bullet$ So: 8--1 hod $\bullet$ Ne: 8--22 hod}
+	\vspace{5pt}
+	\small
+	\begin{itemize}[leftmargin=10pt]
+		\item \textbf{3 minuty} pěšky (hned za Pelíškem)
+		\item značka kávy: \textbf{Rusty Nails Coffee Roasters} a další
+		\item jídla tolik nemají, ale jejich sendvič stojí za to
+		\item zletilí studenti si mohou dát výborné pivo \textbf{Kočovný Kozi}
+		\item v Anodě se párkrát do měsíce hraje \textbf{živé techno}
+		\item na pití doporučuje obsluha \textbf{espresso tonic} a \textbf{kakao}
+	\end{itemize}
 \end{minipage}
 \hfill
 \begin{minipage}{0.27\textwidth}
-  \includegraphics[width=\linewidth]{dulezite.jpg}
+	\includegraphics[width=\linewidth]{dulezite.jpg}
 \end{minipage}
 \vfill
 \noindent Ještě nemáš vybráno? V okolí je ještě \textcolor{yellow}{\textbf{Park Lane}}, kde budeš mít klid a prostor na práci a učení, v mezičase skoč na pizzu do \textcolor{yellow}{\textbf{La Speranzy}}, kde mívají i bezlepkové, a nebo si jdi udělat piknik do \textcolor{yellow}{\textbf{Lužánek}}, nejstaršího veřejného parku v Česku.
@@ -709,44 +744,44 @@ sem patří mapa lul
 
 \pagestyle{empty}
 \pagecolor{red}
-    \noindent\hspace{-3pt}\textcolor{white}{\fontsize{20}{20} \Kapitan Jaroška}
+\noindent\hspace{-3pt}\textcolor{white}{\fontsize{20}{20} \Kapitan Jaroška}
 
-    \vspace*{\fill}
+\vspace*{\fill}
 
 
-      \noindent\hspace{-3pt}\textcolor{white}{\fontsize{25}{25} \Kapitan Průvodce prváka. \colorbox{blue}{\rule[5pt]{0pt}{15pt}\large 2024/2025}}
+\noindent\hspace{-3pt}\textcolor{white}{\fontsize{25}{25} \Kapitan Průvodce prváka. \colorbox{blue}{\rule[5pt]{0pt}{15pt}\large 2024/2025}}
 
-      \vspace{1em}
+\vspace{1em}
 
-      \noindent\textcolor{white}{\textbf{Vydáno Školním parlamentem Gymnázia Brno, tř. Kpt. Jaroše 14 v září 2024 nákladem 150 výtisků.}}
+\noindent\textcolor{white}{\textbf{Vydáno Školním parlamentem Gymnázia Brno, tř. Kpt. Jaroše 14 v září 2024 nákladem 150 výtisků.}}
 
-      \vspace{1em}
+\vspace{1em}
 
-      \noindent \textcolor{white}{\textbf{Redakce: Dominik Doležel, Jan Romanovský}}
+\noindent \textcolor{white}{\textbf{Redakce: Dominik Doležel, Jan Romanovský}}
 
-      \vspace{1em}
+\vspace{1em}
 
-      \noindent \textcolor{white}{\textbf{Foto: xx}}
+\noindent \textcolor{white}{\textbf{Foto: xx}}
 
-      \vspace{1em}
+\vspace{1em}
 
-      \noindent \textcolor{white}{\textbf{Sazba a grafická úprava: Dominik Doležel}}
+\noindent \textcolor{white}{\textbf{Sazba a grafická úprava: Dominik Doležel}}
 
-      \vspace{1em}
+\vspace{1em}
 
-      \noindent \textcolor{white}{\textbf{Spolupráce: nikdo}}
+\noindent \textcolor{white}{\textbf{Spolupráce: nikdo}}
 
-      \vspace{1em}
+\vspace{1em}
 
-      \noindent \textcolor{white}{\textbf{Účelová publikace -- výtisk je neprodejný.}}
+\noindent \textcolor{white}{\textbf{Účelová publikace -- výtisk je neprodejný.}}
 
-      \vspace{1em}
+\vspace{1em}
 
-      \noindent \textcolor{white}{\textbf{Žádná část tohoto textu nebyla vygenerována AI.}}
+\noindent \textcolor{white}{\textbf{Žádná část tohoto textu nebyla vygenerována AI.}}
 
-      \vspace{1em}
+\vspace{1em}
 
-      \noindent \textcolor{white}{\textbf{Vysázeno v \LaTeX u.}}
+\noindent \textcolor{white}{\textbf{Vysázeno v \LaTeX u.}}
 
 
 

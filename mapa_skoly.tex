@@ -26,6 +26,8 @@
 \definecolor{orange}{rgb}{1, 0.5, 0.33}
 \definecolor{green}{rgb}{0.13, 0.51, 0.37}
 \definecolor{violet}{rgb}{0.6, 0.31, 0.49}
+\definecolor{gold}{cmyk}{0.20, 0.44, 1, 0}
+\definecolor{grey}{cmyk}{0, 0, 0, 0.5}
 
 \newsavebox\foobox
 \newcommand\slbox[2]{%
@@ -57,7 +59,7 @@
 \fill [#7] (\x1+\y1*\cos,\y1*\sin+\z2) -- (\x1+\y2*\cos,\y2*\sin+\z2) -- (\x2+\y2*\cos,\y2*\sin+\z2) -- (\x2+\y1*\cos,\y1*\sin+\z2) -- (\x1+\y1*\cos,\y1*\sin+\z2);
 
 %bok
-\fill [black!50!#7]  (\x2+\y1*\cos,\y1*\sin+\z1) -- (\x2+\y1*\cos,\y1*\sin+\z2) -- (\x2+\y2*\cos,\y2*\sin+\z2) -- (\x2+\y2*\cos,\y2*\sin+\z1) -- (\x2+\y1*\cos,\y1*\sin+\z1);
+\fill [black!40!#7]  (\x2+\y1*\cos,\y1*\sin+\z1) -- (\x2+\y1*\cos,\y1*\sin+\z2) -- (\x2+\y2*\cos,\y2*\sin+\z2) -- (\x2+\y2*\cos,\y2*\sin+\z1) -- (\x2+\y1*\cos,\y1*\sin+\z1);
 \node at (\x1/2+\x2/2+\y1*\cos/2+\y2*\cos/2,\y1*\sin/2+\y2*\sin/2+\z2) {\rotslant{0}{30}{\scalebox{1}{#8}}};
 \node at (\x1/2+\x2/2+\y1*\cos,\y1*\sin+\z1/2+\z2/2) {#9};
 }
@@ -131,7 +133,7 @@
 
         %\kvadr{47}{48}{15}{23}{0}{4}{black!30}{}{};
 
-        \kvadr{48}{50}{21}{23}{0}{2}{pink}{}{};
+        \kvadr{48}{50}{21}{23}{0}{2}{pink!160}{}{};
 
         %\kvadr{48}{50}{20}{21}{0}{4}{black!30}{}{};
 
@@ -164,9 +166,9 @@
         \kvadr{63}{71}{19}{25}{0}{2}{violet!100}{\shortstack{509 \\ J3}}{};
         %\kvadr{63}{71}{15}{16}{0}{4}{black!30}{}{};
         \kvadr{63}{71}{12}{18}{0}{2}{orange!100}{\shortstack{510 \\ J2}}{};
-        \kvadr{63}{71}{6}{11}{0}{2}{black!50}{\shortstack{511 > Apartmán 2}}{};
+        \kvadr{63}{71}{6}{11}{0}{2}{grey}{\shortstack{511 > Apartmán 2}}{};
         %\kvadr{63}{71}{7}{8}{0}{4}{black!30}{}{};
-        \kvadr{58}{71}{0}{5}{0}{2}{black!50}{\shortstack{512 \\ Apartmán 1}}{};
+        \kvadr{58}{71}{0}{5}{0}{2}{grey}{\shortstack{512 \\ Apartmán 1}}{};
 
 
 
@@ -252,7 +254,7 @@
 
         %\kvadr{47}{48}{15}{23}{0}{4}{black!30}{}{};
 
-        \kvadr{48}{50}{21}{23}{0}{2}{pink}{}{};
+        \kvadr{48}{50}{21}{23}{0}{2}{pink!160}{}{};
 
         %\kvadr{48}{50}{20}{21}{0}{4}{black!30}{}{};
 
@@ -282,7 +284,7 @@
         %\kvadr{63}{71}{7}{8}{0}{4}{black!30}{}{};
         \kvadr{63}{71}{0}{11}{0}{2}{orange!100}{\shortstack{416 \\ 1.C}}{};
 
-        \kvadr{58}{62}{0}{5}{0}{2}{violet!100}{\shortstack{ 417 \\ Sklad učebnic}}{};
+        \kvadr{58}{62}{0}{5}{0}{2}{violet!100}{\shortstack{ 417 \\ Skl. učebnic}}{};
         %\kvadr{62}{63}{0}{5}{0}{4}{black!30}{}{};
 
     \end{tikzpicture}
@@ -319,7 +321,7 @@
 
         %\kvadr{46}{47}{26}{34}{0}{4}{black!30}{}{};
 
-        \kvadr{20}{24}{26}{34}{0}{2}{violet!100}{\shortstack{306 \\ZŘAK}}{};
+        \kvadr{20}{24}{26}{34}{0}{2}{gold!100}{\shortstack{306 \\ZŘAK}}{};
 
         %\kvadr{24}{25}{26}{34}{0}{4}{black!30}{}{};
 
@@ -364,7 +366,7 @@
 
         %\kvadr{47}{48}{15}{23}{0}{4}{black!30}{}{};
 
-        \kvadr{48}{50}{21}{23}{0}{2}{pink}{}{};
+        \kvadr{48}{50}{21}{23}{0}{2}{pink!160}{}{};
 
         %\kvadr{48}{50}{20}{21}{0}{4}{black!30}{}{};
 
@@ -415,13 +417,13 @@
 
         \kvadr{9}{19}{26}{34}{0}{2}{orange!100}{\shortstack{207 \\ Sborovna}}{};
 
-        \kvadr{0}{8}{24}{34}{0}{2}{orange!100}{\shortstack{205 \& 206 \\ Kancelář\\ Ředitelna}}{};
+        \kvadr{0}{8}{24}{34}{0}{2}{gold!100}{\shortstack{205 \& 206 \\ Kancelář\\ Ředitelna}}{};
 
         %\kvadr{0}{8}{23}{24}{0}{4}{black!30}{}{};
 
         \kvadr{0}{8}{16}{23}{0}{2}{orange!100}{\shortstack{204 \\ 3.A}}{};
-        \kvadr{0}{8}{12.5}{15}{0}{2}{violet!100}{\shortstack{203 > ZŘJS}}{};
-        \kvadr{0}{8}{8}{11.5}{0}{2}{violet!100}{\shortstack{202 > Účetní}}{};
+        \kvadr{0}{8}{12.5}{15}{0}{2}{gold!100}{\shortstack{203 > ZŘJS}}{};
+        \kvadr{0}{8}{8}{11.5}{0}{2}{grey}{\shortstack{202 > Účetní}}{};
         \kvadr{0}{8}{0}{7}{0}{2}{orange!100}{\shortstack{201 \\ 4.D}}{};
 
 
@@ -441,7 +443,7 @@
 
         \kvadr{52}{62}{26}{34}{0}{2}{orange!100}{\shortstack{211 \\ 3.C}}{};
 
-        \kvadr{43}{51}{26}{34}{0}{2}{black!50}{\shortstack{210 \\ Serverovna}}{};
+        \kvadr{43}{51}{26}{34}{0}{2}{grey}{\shortstack{210 \\ Serverovna}}{};
 
         %\kvadr{62}{63}{26}{34}{0}{4}{black!30}{}{};
 
@@ -478,16 +480,16 @@
 
         %\kvadr{47}{48}{15}{23}{0}{4}{black!30}{}{};
 
-        \kvadr{48}{50}{21}{23}{0}{2}{pink}{}{};
+        \kvadr{48}{50}{21}{23}{0}{2}{pink!160}{}{};
 
         %\kvadr{48}{50}{20}{21}{0}{4}{black!30}{}{};
 
         %\kvadr{50}{51}{20}{23}{0}{4}{black!30}{}{};
 
-        \kvadr{46.5}{47.5}{15}{23}{0}{2}{black!50}{}{};
-        \kvadr{47}{50}{15}{20}{0}{2}{black!50}{\shortstack{219 \\ Mzd. \\ úč.}}{};
+        \kvadr{46.5}{47.5}{15}{23}{0}{2}{grey}{}{};
+        \kvadr{47}{50}{15}{20}{0}{2}{grey}{\shortstack{219 \\ Mzd. \\ úč.}}{};
         \kvadr{50.5}{54}{15}{23}{0}{2}{violet!100}{\shortstack{218 \\ Tv}}{};
-        \kvadr{54.5}{58}{15}{23}{0}{2}{black!50}{\shortstack{ \hspace{5pt} 217 \\ \hspace{5pt} Archiv}}{};
+        \kvadr{54.5}{58}{15}{23}{0}{2}{grey}{\shortstack{ \hspace{5pt} 217 \\ \hspace{5pt} Archiv}}{};
 
 
 
@@ -514,7 +516,7 @@
         %\kvadr{63}{71}{7}{8}{0}{4}{black!30}{}{};
         \kvadr{63}{71}{0}{7}{0}{2}{orange!100}{\shortstack{215 \\ Ch2}}{};
 
-        \kvadr{58}{62}{0}{5}{0}{2}{black!50}{\shortstack{216 \\ Skl. chem.}}{};
+        \kvadr{58}{62}{0}{5}{0}{2}{grey}{\shortstack{216 \\ Skl. chem.}}{};
         %\kvadr{62}{63}{0}{5}{0}{4}{black!30}{}{};
 
     \end{tikzpicture}
@@ -531,25 +533,23 @@
         \kvadr{38}{43}{15}{23}{0-0.5}{0}{white!20!blue}{}{};
         \kvadr{28}{33}{15}{23}{0-0.5}{0}{white!20!blue}{}{};
 
-        \kvadr{0}{19}{26}{34}{0}{2}{orange!100}{jídelna}{};
+        \kvadr{0}{19}{26}{34}{0}{2}{grey}{Jídelna}{};
+        \kvadr{0}{8}{22}{26}{0}{2}{grey}{}{};
 
-        \kvadr{20}{24}{26}{34}{0}{2}{black!50}{}{};
+        \kvadr{24}{28}{26}{34}{0}{2}{grey}{Vrátnice}{};
 
+        \kvadr{52}{62}{26}{34}{0}{2}{grey}{Šatny}{};
 
-
-
-        \kvadr{52}{62}{26}{34}{0}{2}{orange!100}{šatny}{};
-
-        \kvadr{63}{71}{16}{34}{0}{2}{orange!100}{šatny}{};
+        \kvadr{63}{71}{22}{34}{0}{2}{grey}{Šatny}{};
 
 
 
-        \kvadr{12}{22}{15}{23}{0}{2}{black!50}{}{};
+        \kvadr{12}{22}{15}{23}{0}{2}{grey}{}{};
 
 
 
 
-        \kvadr{23}{28}{15}{23}{0}{2}{purple}{\tiny H}{};
+        \kvadr{23}{28}{15}{23}{0}{2}{purple}{H}{};
 
 
         \kvadr{33}{37}{21}{23}{0}{0.5}{black!45}{}{};
@@ -558,18 +558,33 @@
         \kvadr{33}{37}{15}{17}{1.5}{2}{black!30}{}{};
 
 
-        \kvadr{38}{44}{15}{20}{0}{1}{orange!60}{bufet}{};
+        \kvadr{38}{44}{15}{20}{0}{1}{grey}{Bufet}{};
 
         \kvadr{45}{47.5}{15}{23}{0}{2}{purple}{D}{};
-        \kvadr{48}{50}{21}{23}{0}{2}{pink}{}{};
+        \kvadr{48}{50}{21}{23}{0}{2}{pink!160}{}{};
 
+        \kvadr{56}{57}{5}{6.5}{0}{0.25}{black!40}{}{};
+        \kvadr{55}{56}{5}{6.5}{0.25}{0.5}{black!40}{}{};
+        \kvadr{54}{55}{5}{6.5}{0.5}{0.75}{black!40}{}{};
+        \kvadr{53}{54}{5}{8}{0.75}{1}{black!40}{}{};
 
-        \kvadr{11}{57}{0}{14}{0-3}{0-1}{orange!100}{tělocvična}{};
+        \kvadr{54}{55}{6.5}{8}{1}{1.25}{black!40}{}{};
+        \kvadr{55}{56}{6.5}{8}{1.25}{1.5}{black!40}{}{};
+        \kvadr{56}{57}{6.5}{8}{1.5}{1.75}{black!40}{}{};
+        \kvadr{57}{58}{6.5}{8}{1.75}{2}{black!40}{}{};
+
+        \kvadr{11}{48}{0}{14}{0-3}{0-1}{orange!100}{tělocvična}{};
 
     \end{tikzpicture}\\
     }
     \vfill
     \noindent\textcolor{white}{
-     \fcolorbox{orange!60}{orange!60}{\rule{0pt}{6pt}\rule{6pt}{0pt}} učebny \hfill \fcolorbox{violet!100}{violet!100}{\rule{0pt}{6pt}\rule{6pt}{0pt}} kabinety \hfill \fcolorbox{green!100}{green!100}{\rule{0pt}{6pt}\rule{6pt}{0pt}} studovny \hfill \fcolorbox{purple}{purple}{\rule{0pt}{6pt}\rule{6pt}{0pt}} WC \hfill \fcolorbox{black!50}{black!50}{\rule{0pt}{6pt}\rule{6pt}{0pt}} ostatní}
+     \fcolorbox{orange}{orange}{\rule{0pt}{6pt}\rule{6pt}{0pt}} učebny \hfill
+     \fcolorbox{violet!100}{violet!100}{\rule{0pt}{6pt}\rule{6pt}{0pt}} kabinety \hfill
+     \fcolorbox{gold!100}{gold!100}{\rule{0pt}{6pt}\rule{6pt}{0pt}} vedení \hfill
+     \fcolorbox{green!100}{green!100}{\rule{0pt}{6pt}\rule{6pt}{0pt}} studovny \hfill
+     \fcolorbox{purple}{purple}{\rule{0pt}{6pt}\rule{6pt}{0pt}} WC \hfill
+     \fcolorbox{grey}{grey}{\rule{0pt}{6pt}\rule{6pt}{0pt}} ostatní
+     }
 
 \end{document}

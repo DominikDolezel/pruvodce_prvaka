@@ -17,10 +17,17 @@
 \usepackage{caption}
 \usepackage{mdframed}
 \usepackage{pdfpages}
+\usepackage{fancyhdr}
 
 \setlist[itemize]{noitemsep}
 
-\pagenumbering{gobble}
+\pagenumbering{arabic}
+
+\fancyhead[LE,RO]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\addtolength{\topmargin}{0pt}
+
+\pagestyle{fancy}
 
 \setstretch{1}
 \titlespacing{\section}{0pt}{\parskip}{-\parskip}
@@ -30,7 +37,7 @@
 % definuj jaroška barvy
 \definecolor{red}{cmyk}{0.15, 1, 0.85, 0}
 \definecolor{blue}{cmyk}{0.89, 0, 0.12, 0.2}
-\definecolor{green}{cmyk}{0.7, 0, 0.5, 0.1}
+\definecolor{green}{cmyk}{0.75, 0, 0.55, 0.3}
 \definecolor{yellow}{cmyk}{0, 0.3, 0.7, 0.1}
 \definecolor{darkblue}{cmyk}{0.88, 0.48, 0, 0.52}
 
@@ -133,6 +140,7 @@
 \includepdf[pages=-]{mapa_skoly.pdf}
 \newpage
 
+\setcounter{page}{1}
 % kabinety
 \noindent
 \newpagecolor{darkblue}
@@ -194,7 +202,13 @@
 \end{itemize}
 
 \begin{redbox}
-	\textcolor{white}{S připojováním osobních notebooků na školní wifi to bývalo v minulosti trochu složitější. Naštěstí v minulém školním roce naše zastaralá síť přošla značnými úpravami, takže už by to teď neměl být problém. Stačí se přihlásit na síť \textit{JAROSKA\_S} se stejným jménem a heslem, jako se přihlašuješ v informatice. Pokud si heslo na počítač změníš, změní se ti i heslo na wifi! V případě, že něco nebude fungovat, zajdi za panem profesorem Blahou (jehož kabinet si můžeš najít na plánku školy) a popros ho o pomoc.}
+  \textcolor{white}{
+  \vspace{-10pt}
+  \begin{itemize}[leftmargin=10pt]
+    \item S \textbf{připojováním osobních notebooků} na školní wifi to bývalo v minulosti trochu složitější. Naštěstí v minulém školním roce naše zastaralá síť přošla značnými úpravami, takže už by to teď \textbf{neměl být problém}. Stačí se přihlásit na síť \textit{JAROSKA\_S} se \textbf{stejným jménem a heslem}, jako se přihlašuješ v informatice. Pokud si heslo na počítač změníš, změní se ti i heslo na wifi! V případě, že něco nebude fungovat, \textbf{zajdi za panem profesorem Blahou} (jehož kabinet si můžeš najít na plánku školy) a popros ho o pomoc.
+  \end{itemize}
+  \vspace{-10pt}
+  }
 \end{redbox}
 
 \begin{itemize}[leftmargin=10pt]
@@ -287,13 +301,14 @@ letech se snažíme dělat vše pro to, aby byl každý spokojen.
 	\end{itemize}
 
 	\begin{tcolorbox}[colback=red,boxrule=0pt, sharp corners]
-		\textcolor{white}{\footnotesize \textbf{Poznámka.}
+		\textcolor{white}{\footnotesize \textbf{Poznámky.}
 			Některé předměty jsou označeny pro třídy X.A apod. Osnovy matematické a všeobecné třídy se trochu liší, a proto jim musí být
-			uzpůsoben i repertoár volitelných předmětů.
+			uzpůsoben i repertoár volitelných předmětů.\\
 			Výčet nemusí být kompletní:
 			neustále se snažíme vymýšlet nové smysluplné
 			předměty -- hlavně do čtvrťáku. A některé ze
-			seznamu se vůbec nemusejí otevřít.}
+			seznamu se vůbec nemusejí otevřít.
+      }
 
 		\hfill
 	\end{tcolorbox}
@@ -304,7 +319,7 @@ letech se snažíme dělat vše pro to, aby byl každý spokojen.
 \podnadpis{ŠKOLNÍ KANCELÁŘ}{red}
 
 Na vyřizování formalit tu máme \textbf{školní kancelář}. \textbf{Najdeš ji ve druhém patře}, jako
-navigaci můžeš použít schéma školy na začátku.
+navigaci můžeš použít schéma školy na začátku \textcolor{black}{\Kapitan Průvodce prváka}.
 Využiješ ji hlavně na:
 \begin{itemize}[leftmargin=10pt]
 	\item \textbf{potvrzení o studiu} -- na šalinkartu nebo úlevy na daních
@@ -447,7 +462,7 @@ s \textbf{jednotlivými kantory domluvíš} na tom, jak se bude klasifikovat. Us
 \end{bluebox}
 
 \podnadpis{A CO JINAK?}{blue}
-Průvodce prváka tady bohužel není od toho, aby poskytnul vyčerpávající výčet takovýchhle situací. Pokud nebudeš něco vědět, \textbf{prostě zajdi za třídním}. Vždycky všecko vyřeší. Ne nadarmo jim říkáme matky / otcové třídní.
+\textcolor{white}{\Kapitan Průvodce prváka} tady bohužel není od toho, aby poskytnul vyčerpávající výčet takovýchhle situací. Pokud nebudeš něco vědět, \textbf{prostě zajdi za třídním}. Vždycky všecko vyřeší. Ne nadarmo jim říkáme matky / otcové třídní.
 
 \pagebreak
 
@@ -565,7 +580,7 @@ Dvakrát do roka si vybraná vysokoškolská pracoviště pozvou středoškolák
 \end{yellowbox}
 
 \noindent \begin{minipage}{0.7\textwidth}
-	\podnadpis{COFFE TRAIL}{yellow}
+	\podnadpis{COFFEE TRAIL}{yellow}
 	\textcolor{yellow}{Po--Pá: 8--20 hod $\bullet$ So, Ne: 9--16 hod}
 	\vspace{5pt}
 	\small

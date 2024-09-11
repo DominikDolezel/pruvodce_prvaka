@@ -1,4 +1,4 @@
-\documentclass[a5paper]{article}
+\documentclass[a5paper, twoside]{article}
 \usepackage{fullpage}
 \usepackage[czech]{babel}
 \usepackage{amsfonts}
@@ -23,9 +23,10 @@
 
 \pagenumbering{arabic}
 
-\fancyhead[LE,RO]{\thepage}
+%\fancyhead[LE,RO]{\thepage}
+\cfoot{}
 \renewcommand{\headrulewidth}{0pt}
-\addtolength{\topmargin}{0pt}
+%\addtolength{\topmargin}{0pt}
 
 \pagestyle{fancy}
 
@@ -106,9 +107,35 @@
   \end{tcolorbox}
 }
 
+\newcommand{\polonadpis}[4]{
+  \vspace*{-60pt}
+  \begin{tcolorbox}[colback = #2, boxrule = 0pt, grow to left by = #4,  grow to right by = #4, arc=8pt]
+    \vspace*{20pt}
+    \centering \subsection*{\textcolor{#3}{#1}}
+  \end{tcolorbox}
+}
+
 % params: subsection title, text color
 \newcommand{\podnadpis}[2]{
   \subsection*{\textcolor{#2}{#1}}
+}
+
+\newcommand{\lpagenumberbox}[4]{
+  \vspace*{-60pt}
+  \hspace*{-185pt}
+  \begin{tcolorbox}[colback = #2, boxrule = 0pt, grow to left by = #4,  grow to right by = #4, arc=8pt]
+    \vspace*{20pt}
+    \centering \textcolor{#3}{\textbf{\large{#1}}}
+  \end{tcolorbox}
+}
+
+\newcommand{\rpagenumberbox}[4]{
+  \vspace*{-60pt}
+  \hspace*{150pt}
+  \begin{tcolorbox}[colback = #2, boxrule = 0pt, grow to left by = #4,  grow to right by = #4, arc=8pt]
+    \vspace*{20pt}
+    \centering \textcolor{#3}{\textbf{\large{#1}}}
+  \end{tcolorbox}
 }
 
 \begin{document}
@@ -146,6 +173,7 @@
 \newpagecolor{darkblue}
 \textcolor{white}{
   \nadpis{SEZNAM KABINETŮ}{white}{darkblue}{-3.1cm}
+  \rpagenumberbox{\thepage}{white}{darkblue}{-5.8cm}
   \noindent \begin{tabular}{l l l}
     Kabinet hala & 1. podlaží & Zvolská \\
     Kabinet AŠSK & 1. podlaží & Jadvidžák, Stupka \\
@@ -171,7 +199,7 @@
     Kabinet VP & 414 & Borošová, Nováková M. \\
     Společenské vědy & 415 & Pospíšil, Bučková, Horáková J. \\
     Sklad učebnic & 417 & Horák, Zerhau \\
-    Knihovna & 418 & Pleva Hudeček, Tillová, Urban \\
+    Knihovna & 418 & Pleva, Hudeček, Tillová, Urban \\
     Angličtina 1 & 501 & Smělíková Pilátová, Kallus Brychová \\
     Jazyky 2 & 502 & Jugasová, Sedlinská \\
     Angličtina 2 & 503 & Kubitová, Zubíčková \\
@@ -181,12 +209,13 @@
   \end{tabular}
   }
   \vfill
-  \noindent\textcolor{white}{\textbf{Poznámka.} Jak sis mohl všimnout, na naší škole nemáme \textit{patra}, ale \textit{podlaží}. Ve zkratce: když vejdeš dveřmi z ulice, jsi v nultém patře (v přízemí -- tento přístup razí informatici), ale v 1. podlaží. \\
+  \noindent\textcolor{white}{\textbf{Poznámka.} Jak sis mohl/a všimnout, na naší škole nemáme \textit{patra}, ale \textit{podlaží}. Ve zkratce: když vejdeš dveřmi z ulice, jsi v nultém patře (v přízemí -- tento přístup razí informatici), ale v 1. podlaží. \\
   Navíc, každé dveře mají svoje číslo. Třeba 4.A -- 310. To má svou určitou logiku: první číslice z trojice značí podlaží a další dvě značí polohu na daném podlaží tak, že 01 je nejvíc vzadu vlevo v pohledu od schodů a s každou další místností směrem doprava roste o jedna. Pokud nebudeš vědět, kde je jaká učebna, rozklikni si v rozvrhu v EduPage i její číslo a trefíš tam i poslepu!}
 \newpage
 \newpagecolor{white}
 
 \nadpis{JAK TO U NÁS CHODÍ}{red}{white}{-3cm}
+\lpagenumberbox{\thepage}{red}{white}{-5.8cm}
 \noindent \podnadpis{DĚLENÍ TŘÍD}{red}
 \begin{itemize}[leftmargin=10pt]
 	\item \textcolor{red}{\textbf{X.A}} --  \textbf{matematicky zaměřená třída}, většina studentů už jde z tzv. nižšího gymnázia na Příční ulici (prima až kvarta), na vyšším se k nim následně připojí pár dalších studentů
@@ -212,7 +241,7 @@
 \end{redbox}
 
 \begin{itemize}[leftmargin=10pt]
-	\item  škola nám laskavě poskytuje \textbf{studentský server Penguin} (\textit{penguin.jaroska.cz}), slouží primárně pro projekty studentů; pokud plánuješ třeba uspořádat školní akci, potřebuješ server pro svoji ZMP a nebo jen sháníš úložiště/pískoviště pro svoje vyžití, \textbf{nechceš platit hosting a nevadí ti trochu starší způsob přístupu k souborům}, obrať se na profesory informatiky, kteří tě pak můžou nasměrovat na \textbf{odpovědné správce serveru}; zpravidla to bývá \textbf{někdo ze studentstva}
+	\item  škola nám laskavě poskytuje \textbf{studentský server Penguin} (\textit{penguin.jaroska.cz}), slouží primárně pro projekty studentů; pokud plánuješ třeba uspořádat školní akci, potřebuješ server pro svoji ZP a nebo jen sháníš úložiště/pískoviště pro svoje vyžití, \textbf{nechceš platit hosting a nevadí ti trochu starší způsob přístupu k souborům}, obrať se na profesory informatiky, kteří tě pak můžou nasměrovat na \textbf{odpovědné správce serveru}; zpravidla to bývá \textbf{někdo ze studentstva}
 \end{itemize}
 
 \podnadpis{ŠKOLNÍ MAILY}{red}
@@ -228,6 +257,9 @@
 \end{itemize}
 
 \newpage
+
+\polonadpis{I. Jak to u nás chodí}{red}{white}{-4.1cm}
+\rpagenumberbox{\thepage}{red}{white}{-5.8cm}
 
 \podnadpis{VOLITELNÉ PŘEDMĚTY}{red}
 
@@ -316,6 +348,9 @@ letech se snažíme dělat vše pro to, aby byl každý spokojen.
 
 \newpage
 
+\polonadpis{I. Jak to u nás chodí}{red}{white}{-4.1cm}
+\lpagenumberbox{\thepage}{red}{white}{-5.8cm}
+
 \podnadpis{ŠKOLNÍ KANCELÁŘ}{red}
 
 Na vyřizování formalit tu máme \textbf{školní kancelář}. \textbf{Najdeš ji ve druhém patře}, jako
@@ -357,6 +392,9 @@ nekvalitní.
 
 \newpage
 
+\polonadpis{I. Jak to u nás chodí}{red}{white}{-4.1cm}
+\rpagenumberbox{\thepage}{red}{white}{-5.8cm}
+
 \podnadpis{ŠKOLNÍ VÝLETY}{red}
 Ačkoli nám do toho Covid v posledních letech házel vidle, jezdíme i na výlety.
 \textbf{V~každém ročníku tě čeká jeden} -- \textbf{tady je jejich přehled}.
@@ -397,6 +435,8 @@ Ačkoli nám do toho Covid v posledních letech házel vidle, jezdíme i na výl
 \newpage
 
 \nadpis{FORMÁLNÍ ZÁLEŽITOSTI}{blue}{white}{-2.4cm}
+\lpagenumberbox{\thepage}{blue}{white}{-5.8cm}
+
 \noindent \podnadpis{JÍDELNA}{blue}
 V přízemí máme samozřejmě \textbf{jídelnu}. V ní je každý školní den na výběr ze tří obědů, zpravidla dvou teplých jídel a jednoho salátu v krabičce. Ceny se pohybují v rozmezí \textbf{42 až 52 korun} (ovšem záleží na věku), v ceně je i polévka a pití.
 
@@ -428,20 +468,28 @@ To se taky stává. Nic se neděje, stačí v průběhu dopoledne \textbf{dojít
 	a tím se prokážeš} v jídelně.
 
 \pagebreak
+
+\polonadpis{II. Formální záležitosti}{blue}{white}{-3.8cm}
+\rpagenumberbox{\thepage}{blue}{white}{-5.8cm}
+
 \podnadpis{ABSENCE}{blue}
 Nebudeme to okecávat. Tady je flowchart, který je lepší než tisíc slov.
 \vfill
 \begin{center}
-	\includegraphics[width=0.95\linewidth]{absence.png}
+	\includegraphics[width=\linewidth]{absence.png}
 \end{center}
 
-\vspace{5em}
+\vspace{3em}
 \pagebreak
+
+\polonadpis{II. Formální záležitosti}{blue}{white}{-3.8cm}
+\lpagenumberbox{\thepage}{blue}{white}{-5.8cm}
 
 \podnadpis{ZNÁMKOVÁNÍ}{blue}
 Každý učitel má vymyšlené své způsoby známkování. \textbf{Většina se drží u staré dobré škály 1--5}, někteří ale dávají body a jiní zase procenta. Kvůli českým zákonům se ale \textbf{ve výsledku vše převede na klasické známky} (a proto nejenže budeš u těchto \uv{alternativních} systémů poučen, kolik procent je jaká známka, ale \textbf{všichni učitelé} v září mají \textbf{povinnost poslat na EduPage pravidla klasifikace}).
 
 \begin{bluebox}
+  \vspace*{-8pt}
 	\textcolor{white}{\subsection*{EDUPAGE (většinou jen EP)}
 		\textbf{Naše elektronická třídnice.} Zavedli jsme ji na začátku roku 2020, takže \textbf{prošla doslova zkouškou ohněm} -- a úspěšně (i když to je diskutabilní). Občas na EP nadáváme, ale to snad ani
 		nejde jinak. \\
@@ -456,17 +504,20 @@ ISP nemusí dávat podmínky pro úplně všechny předměty. Bohatě stačí, k
 s \textbf{jednotlivými kantory domluvíš} na tom, jak se bude klasifikovat. Ustálená praxe pro studenty na ISP je taková, že si \textbf{jednou za čtvrtletí docházejí napsat opakovací testy} z jednotlivých předmětů.
 
 \begin{bluebox}
+  \vspace*{-8pt}
 	\textcolor{white}{\subsection*{OMLUVENÍ Z TĚLOCVIKU}
 		To by jen tak nešlo. Nejdřív ti \textbf{doktor musí vydat nějaké lejstro} či potvrzení o tom, že do toho tělocviku prostě nemůžeš chodit, pak ho předáš nám a... jsi omluven. Bude tam ještě trocha papírování, ale snažíme se vycházet vstříc (nebudeme, proboha, nikoho nutit cvičit se sádrou). V prváku také podstupujeme \textbf{test plavecké zdatnosti}, kterému se nevyhneš bez uvolnění. Pokud na něj v prváku nepřijdeš, půjdeš ve druháku. Tak důslední jsme. (Pokud nepřijdeš v druháku, přijdeš ve třeťáku. Pokud nepřijdeš ve třeťáku a zvolíš si vodácký kurz, budeš zkoušky provádět na místě před všemi svými spolužáky.)
 	}
 \end{bluebox}
 
 \podnadpis{A CO JINAK?}{blue}
-\textcolor{white}{\Kapitan Průvodce prváka} tady bohužel není od toho, aby poskytnul vyčerpávající výčet takovýchhle situací. Pokud nebudeš něco vědět, \textbf{prostě zajdi za třídním}. Vždycky všecko vyřeší. Ne nadarmo jim říkáme matky / otcové třídní.
+\textcolor{black}{\Kapitan Průvodce prváka} tady bohužel není od toho, aby poskytnul vyčerpávající výčet takovýchhle situací. Pokud nebudeš něco vědět, \textbf{prostě zajdi za třídním}. Vždycky všecko vyřeší. Ne nadarmo jim říkáme matky / otcové třídní.
 
-\pagebreak
+\newpage
 
 \nadpis{SOUTĚŽE}{green}{white}{-4.7cm}
+\rpagenumberbox{\thepage}{green}{white}{-5.8cm}
+
 \noindent Jestli je na Jarošce něco extrémně pozitivní, je to fakt, že tě \textbf{nechá dělat věci navíc} (a často tě v nich dokonce podporuje). Rozhodli jsme se tedy zkompilovat \textbf{seznam soutěží a jiných aktivit}, které ti zdejší studium umožňuje.
 
 \vspace{5pt}
@@ -533,6 +584,8 @@ Dvakrát do roka si vybraná vysokoškolská pracoviště pozvou středoškolák
 \pagebreak
 
 \nadpis{ZA HRANICEMI ŠKOLY}{yellow}{white}{-2.75cm}
+\lpagenumberbox{\thepage}{yellow}{white}{-5.8cm}
+
 \enlargethispage{\pagegoal}
 \noindent \small Ano, víme, na Jarošce je fajn! Ale kam si po ní jít vyčistit s kamarády hlavu nebo kde najít inspirativní prostředí na projekt? Na to máme \textbf{skvělé kavárny v okolí}. A~že jich je! Připravili jsme si tady výčet těch nejlepších (a na další dvojstránce máme jejich podrobnou mapku, abyste trefili i potmě).\\
 
@@ -622,6 +675,9 @@ Dvakrát do roka si vybraná vysokoškolská pracoviště pozvou středoškolák
 \end{yellowbox}
 
 \pagebreak
+\polonadpis{IV. Za hranicemi školy}{yellow}{white}{-3.8cm}
+\rpagenumberbox{\thepage}{yellow}{white}{-5.8cm}
+
 \noindent
 \begin{minipage}{0.7\textwidth}
 	\podnadpis{MYMIKA}{yellow}

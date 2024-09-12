@@ -21,14 +21,7 @@
 
 \setlist[itemize]{noitemsep}
 
-\pagenumbering{arabic}
-
-%\fancyhead[LE,RO]{\thepage}
-\cfoot{}
-\renewcommand{\headrulewidth}{0pt}
-%\addtolength{\topmargin}{0pt}
-
-\pagestyle{fancy}
+\pagenumbering{gobble}
 
 \setstretch{1}
 \titlespacing{\section}{0pt}{\parskip}{-\parskip}
@@ -39,7 +32,7 @@
 \definecolor{red}{cmyk}{0.15, 1, 0.85, 0}
 \definecolor{blue}{cmyk}{0.89, 0, 0.12, 0.2}
 \definecolor{green}{cmyk}{0.75, 0, 0.55, 0.3}
-\definecolor{yellow}{cmyk}{0, 0.3, 0.7, 0.1}
+\definecolor{yellow}{cmyk}{0, 0.35, 0.75, 0.12}
 \definecolor{darkblue}{cmyk}{0.88, 0.48, 0, 0.52}
 
 % nastav jaroška fonty
@@ -100,17 +93,17 @@
 
 % params: section title, background color, text color, grow to side by
 \newcommand{\nadpis}[4]{
-  \vspace*{-60pt}
-  \begin{tcolorbox}[colback = #2, boxrule = 0pt, grow to left by = #4,  grow to right by = #4, arc=8pt]
-    \vspace*{20pt}
+  \vspace*{-50pt}
+  \begin{tcolorbox}[colback = #2, boxrule = 0pt, grow to left by = #4,  grow to right by = #4, arc=8pt, height = 40pt]
+    \vspace*{5pt}
     \centering \section*{\textcolor{#3}{#1}}
   \end{tcolorbox}
 }
 
 \newcommand{\polonadpis}[4]{
-  \vspace*{-60pt}
-  \begin{tcolorbox}[colback = #2, boxrule = 0pt, grow to left by = #4,  grow to right by = #4, arc=8pt]
-    \vspace*{20pt}
+  \vspace*{-50pt}
+  \begin{tcolorbox}[colback = #2, boxrule = 0pt, grow to left by = #4,  grow to right by = #4, arc=8pt, height = 30pt]
+    \vspace*{5pt}
     \centering \subsection*{\textcolor{#3}{#1}}
   \end{tcolorbox}
 }
@@ -120,23 +113,20 @@
   \subsection*{\textcolor{#2}{#1}}
 }
 
-\newcommand{\lpagenumberbox}[4]{
-  \vspace*{-60pt}
-  \hspace*{-185pt}
-  \begin{tcolorbox}[colback = #2, boxrule = 0pt, grow to left by = #4,  grow to right by = #4, arc=8pt]
-    \vspace*{20pt}
-    \centering \textcolor{#3}{\textbf{\large{#1}}}
-  \end{tcolorbox}
-}
-
-\newcommand{\rpagenumberbox}[4]{
-  \vspace*{-60pt}
-  \hspace*{150pt}
-  \begin{tcolorbox}[colback = #2, boxrule = 0pt, grow to left by = #4,  grow to right by = #4, arc=8pt]
-    \vspace*{20pt}
-    \centering \textcolor{#3}{\textbf{\large{#1}}}
-  \end{tcolorbox}
-}
+%\newcommand{\pagenumberbox}[4]{
+  %\vspace*{-60pt}
+  %\hspace*{-185pt}
+  %\begin{tcolorbox}[colback = #2, boxrule = 0pt, grow to left by = #4,  grow to right by = #4, arc=8pt, height = 20pt]
+    %\vspace*{20pt}
+    %\centering \textcolor{#3}{\textbf{\large{#1}}}
+  %\end{tcolorbox}
+%
+%\newcommand{\rpagenumberbox}[4]{
+%  \hspace*{150pt}
+%  \begin{tcolorbox}[colback = #2, boxrule = 0pt, grow to left by = #4,  grow to right by = #4, arc=8pt, height = 20pt]
+%    \centering \textcolor{#3}{\textbf{\large{#1}}}
+%  \end{tcolorbox}
+%}
 
 \begin{document}
 \begin{titlepage}
@@ -171,9 +161,10 @@
 % kabinety
 \noindent
 \newpagecolor{darkblue}
+
+\nadpis{SEZNAM KABINETŮ}{white}{darkblue}{-3.1cm}
+
 \textcolor{white}{
-  \nadpis{SEZNAM KABINETŮ}{white}{darkblue}{-3.1cm}
-  \rpagenumberbox{\thepage}{white}{darkblue}{-5.8cm}
   \noindent \begin{tabular}{l l l}
     Kabinet hala & 1. podlaží & Zvolská \\
     Kabinet AŠSK & 1. podlaží & Jadvidžák, Stupka \\
@@ -215,7 +206,6 @@
 \newpagecolor{white}
 
 \nadpis{JAK TO U NÁS CHODÍ}{red}{white}{-3cm}
-\lpagenumberbox{\thepage}{red}{white}{-5.8cm}
 \noindent \podnadpis{DĚLENÍ TŘÍD}{red}
 \begin{itemize}[leftmargin=10pt]
 	\item \textcolor{red}{\textbf{X.A}} --  \textbf{matematicky zaměřená třída}, většina studentů už jde z tzv. nižšího gymnázia na Příční ulici (prima až kvarta), na vyšším se k nim následně připojí pár dalších studentů
@@ -259,7 +249,6 @@
 \newpage
 
 \polonadpis{I. Jak to u nás chodí}{red}{white}{-4.1cm}
-\rpagenumberbox{\thepage}{red}{white}{-5.8cm}
 
 \podnadpis{VOLITELNÉ PŘEDMĚTY}{red}
 
@@ -349,7 +338,6 @@ letech se snažíme dělat vše pro to, aby byl každý spokojen.
 \newpage
 
 \polonadpis{I. Jak to u nás chodí}{red}{white}{-4.1cm}
-\lpagenumberbox{\thepage}{red}{white}{-5.8cm}
 
 \podnadpis{ŠKOLNÍ KANCELÁŘ}{red}
 
@@ -393,7 +381,6 @@ nekvalitní.
 \newpage
 
 \polonadpis{I. Jak to u nás chodí}{red}{white}{-4.1cm}
-\rpagenumberbox{\thepage}{red}{white}{-5.8cm}
 
 \podnadpis{ŠKOLNÍ VÝLETY}{red}
 Ačkoli nám do toho Covid v posledních letech házel vidle, jezdíme i na výlety.
@@ -435,7 +422,6 @@ Ačkoli nám do toho Covid v posledních letech házel vidle, jezdíme i na výl
 \newpage
 
 \nadpis{FORMÁLNÍ ZÁLEŽITOSTI}{blue}{white}{-2.5cm}
-\lpagenumberbox{\thepage}{blue}{white}{-5.8cm}
 
 \noindent \podnadpis{JÍDELNA}{blue}
 V přízemí máme samozřejmě \textbf{jídelnu}. V ní je každý školní den na výběr ze tří obědů, zpravidla dvou teplých jídel a jednoho salátu v krabičce. Ceny se pohybují v rozmezí \textbf{42 až 52 korun} (ovšem záleží na věku), v ceně je i polévka a pití.
@@ -470,7 +456,6 @@ To se taky stává. Nic se neděje, stačí v průběhu dopoledne \textbf{dojít
 \pagebreak
 
 \polonadpis{II. Formální záležitosti}{blue}{white}{-3.8cm}
-\rpagenumberbox{\thepage}{blue}{white}{-5.8cm}
 
 \podnadpis{ABSENCE}{blue}
 Nebudeme to okecávat. Tady je flowchart, který je lepší než tisíc slov.
@@ -483,7 +468,6 @@ Nebudeme to okecávat. Tady je flowchart, který je lepší než tisíc slov.
 \pagebreak
 
 \polonadpis{II. Formální záležitosti}{blue}{white}{-3.8cm}
-\lpagenumberbox{\thepage}{blue}{white}{-5.8cm}
 
 \podnadpis{ZNÁMKOVÁNÍ}{blue}
 Každý učitel má vymyšlené své způsoby známkování. \textbf{Většina se drží u staré dobré škály 1--5}, někteří ale dávají body a jiní zase procenta. Kvůli českým zákonům se ale \textbf{ve výsledku vše převede na klasické známky} (a proto nejenže budeš u těchto \uv{alternativních} systémů poučen, kolik procent je jaká známka, ale \textbf{všichni učitelé} v září mají \textbf{povinnost poslat na EduPage pravidla klasifikace}).
@@ -516,7 +500,6 @@ s \textbf{jednotlivými kantory domluvíš} na tom, jak se bude klasifikovat. Us
 \newpage
 
 \nadpis{SOUTĚŽE}{green}{white}{-4.7cm}
-\rpagenumberbox{\thepage}{green}{white}{-5.8cm}
 
 \noindent Jestli je na Jarošce něco extrémně pozitivní, je to fakt, že tě \textbf{nechá dělat věci navíc} (a často tě v nich dokonce podporuje). Rozhodli jsme se tedy zkompilovat \textbf{seznam soutěží a jiných aktivit}, které ti zdejší studium umožňuje.
 
@@ -584,7 +567,6 @@ Dvakrát do roka si vybraná vysokoškolská pracoviště pozvou středoškolák
 \pagebreak
 
 \nadpis{ZA HRANICEMI ŠKOLY}{yellow}{white}{-2.75cm}
-\lpagenumberbox{\thepage}{yellow}{white}{-5.8cm}
 
 \enlargethispage{\pagegoal}
 \noindent \small Ano, víme, na Jarošce je fajn! Ale kam si po ní jít vyčistit s kamarády hlavu nebo kde najít inspirativní prostředí na projekt? Na to máme \textbf{skvělé kavárny v okolí}. A~že jich je! Připravili jsme si tady výčet těch nejlepších (a na další dvojstránce máme jejich podrobnou mapku, abyste trefili i potmě).\\
@@ -676,7 +658,6 @@ Dvakrát do roka si vybraná vysokoškolská pracoviště pozvou středoškolák
 
 \pagebreak
 \polonadpis{IV. Za hranicemi školy}{yellow}{white}{-3.8cm}
-\rpagenumberbox{\thepage}{yellow}{white}{-5.8cm}
 
 \noindent
 \begin{minipage}{0.7\textwidth}
@@ -742,12 +723,9 @@ Dvakrát do roka si vybraná vysokoškolská pracoviště pozvou středoškolák
 \noindent Ještě nemáš vybráno? V okolí je ještě \textcolor{yellow}{\textbf{Park Lane}}, kde budeš mít klid a prostor na práci a učení, v mezičase skoč na pizzu do \textcolor{yellow}{\textbf{La Speranzy}}, kde mívají i bezlepkové, a nebo si jdi udělat piknik do \textcolor{yellow}{\textbf{Lužánek}}, nejstaršího veřejného parku v Česku.
 
 
-
-\pagebreak
-sem taky
 \pagebreak
 \newgeometry{left=0cm,bottom=0cm,top=0cm,bottom=0cm}
-\noindent\includegraphics[width=1.18\linewidth]{mapa.png}
+\noindent\includegraphics[width=1.1\linewidth]{mapa.png}
 \restoregeometry
 \pagebreak
 

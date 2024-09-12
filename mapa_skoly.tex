@@ -21,9 +21,8 @@
 %def barev
 \definecolor{red}{cmyk}{0.15, 1, 0.85, 0}
 \definecolor{darkblue}{cmyk}{0.88, 0.48, 0, 0.52}
-\definecolor{orange}{cmyk}{0, 0.60, 0.77, 0.06}
-%\definecolor{green}{rgb}{0.13, 0.51, 0.37}
-\definecolor{green}{cmyk}{0.87, 0, 0.62, 0.3}
+\definecolor{orange}{rgb}{1, 0.5, 0.33}
+\definecolor{green}{rgb}{0.13, 0.51, 0.37}
 \definecolor{violet}{rgb}{0.6, 0.31, 0.49}
 \definecolor{gold}{cmyk}{0.20, 0.44, 1, 0}
 \definecolor{grey}{cmyk}{0, 0, 0, 0.5}
@@ -53,12 +52,12 @@
 \newcommand{\kvadr}[9]{
 \tikzmath{\x1 = #1; \x2 = #2; \y1 = #3; \y2 = #4; \z1 = #5; \z2 = #6;}
 %predek
-\fill [black!20!#7]     (\x1+\y1*\cos,\y1*\sin+\z1) rectangle (\x2+\y1*\cos,\y1*\sin+\z2);
+\fill [black!30!#7]     (\x1+\y1*\cos,\y1*\sin+\z1) rectangle (\x2+\y1*\cos,\y1*\sin+\z2);
 %vrch
 \fill [#7] (\x1+\y1*\cos,\y1*\sin+\z2) -- (\x1+\y2*\cos,\y2*\sin+\z2) -- (\x2+\y2*\cos,\y2*\sin+\z2) -- (\x2+\y1*\cos,\y1*\sin+\z2) -- (\x1+\y1*\cos,\y1*\sin+\z2);
 
 %bok
-\fill [black!40!#7]  (\x2+\y1*\cos,\y1*\sin+\z1) -- (\x2+\y1*\cos,\y1*\sin+\z2) -- (\x2+\y2*\cos,\y2*\sin+\z2) -- (\x2+\y2*\cos,\y2*\sin+\z1) -- (\x2+\y1*\cos,\y1*\sin+\z1);
+\fill [black!50!#7]  (\x2+\y1*\cos,\y1*\sin+\z1) -- (\x2+\y1*\cos,\y1*\sin+\z2) -- (\x2+\y2*\cos,\y2*\sin+\z2) -- (\x2+\y2*\cos,\y2*\sin+\z1) -- (\x2+\y1*\cos,\y1*\sin+\z1);
 \node at (\x1/2+\x2/2+\y1*\cos/2+\y2*\cos/2,\y1*\sin/2+\y2*\sin/2+\z2) {\rotslant{0}{30}{\scalebox{1}{#8}}};
 \node at (\x1/2+\x2/2+\y1*\cos,\y1*\sin+\z1/2+\z2/2) {#9};
 }

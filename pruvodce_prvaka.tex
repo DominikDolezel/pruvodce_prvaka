@@ -49,7 +49,7 @@
 }
 
 % barva pozadí, barva textu, text
-\newcommand{\boxik}[3]{
+\newcommand{\boxik}[2]{
   \begin{tcolorbox}[
     sharp corners,
     colback = #1,
@@ -60,7 +60,7 @@
     left = 22pt%,
     %enlarge bottom by = -4pt
   ]
-    \textcolor{#2}{#3}
+    #2
   \end{tcolorbox}
 }
 
@@ -115,7 +115,7 @@
 
 		\vspace{0.5em}
 
-		\boxik{blue}{white}{\centering \fontsize{15}{15} \Kapitan \textcolor{white}{2024/2025}}
+		\boxik{blue}{\centering \fontsize{15}{15} \Kapitan \textcolor{white}{2024/2025}}
 
 		\vspace{3em}
 
@@ -193,9 +193,8 @@
 
 
 
-\boxik{red}{white}{\begin{itemize}[leftmargin=10pt]
-    \item S \textbf{připojováním osobních notebooků} na školní wifi to bývalo v minulosti trochu složitější. Naštěstí v minulém školním roce naše zastaralá síť přošla značnými úpravami, takže už by to teď \textbf{neměl být problém}. Stačí se přihlásit na síť \textit{JAROSKA\_S} se \textbf{stejným jménem a heslem}, jako se přihlašuješ v informatice. Pokud si heslo na počítač změníš, změní se ti i heslo na wifi! V případě, že něco nebude fungovat, \textbf{zajdi za panem profesorem Blahou} (jehož kabinet si můžeš najít na plánku školy) a popros ho o pomoc.
-  \end{itemize}
+\boxik{red}{\textcolor{white}{
+  \textbf{Náš tip.} S \textbf{připojováním osobních notebooků} na školní wifi to bývalo v minulosti trochu složitější. Naštěstí v minulém školním roce naše zastaralá síť přošla značnými úpravami, takže už by to teď \textbf{neměl být problém}. Stačí se přihlásit na síť \textit{JAROSKA\_S} se \textbf{stejným jménem a heslem}, jako se přihlašuješ v informatice. Pokud si heslo na počítač změníš, změní se ti i heslo na wifi! V případě, že něco nebude fungovat, \textbf{zajdi za panem profesorem Blahou} (jehož kabinet si můžeš najít na plánku školy) a popros ho o pomoc.}
 }
 
 \begin{itemize}[leftmargin=10pt]
@@ -220,8 +219,7 @@
 
 \podnadpis{VOLITELNÉ PŘEDMĚTY}{red}
 
-\noindent V rámci možností (a našich osnov) jdeme s dobou -- \textbf{pro 3. a 4. ročník si tedy
-	můžeš} (respektive musíš) \textbf{vybrat volitelné předměty}. Výčet níže ber s rezervou
+\noindent V rámci možností (a našich osnov) jdeme s dobou -- \textbf{pro 3. a 4. ročník si tedy můžeš} (respektive musíš) \textbf{vybrat volitelné předměty}. Výčet níže ber s rezervou
 (může se cokoli změnit, některé předměty mohou přibýt nebo ubýt). V případě
 nízkého zájmu se rovněž \textbf{některé předměty nemusejí otevřít}, ale v posledních
 letech se snažíme dělat vše pro to, aby byl každý spokojen.
@@ -339,7 +337,7 @@ velmi opatrně). Přejeme pěknou jízdu!
 
 
 
-\boxik{red}{white}{\textbf{Poznámka.} Ne že bys nejen nesměl/a jezdit zdravý/á výtahem, ono to taky dost dobře nejde. Bez oprávnění na čipu tě výtah prostě nebude poslouchat a nepřijede ti. Když už je mysteriózně otevřen na patře prázdný, nikdo ti asi nebude fyzicky bránit do něj naskočit a odjet -- ale pokud tě při tom načapá profesor/ka, který/á to nemá rád/a, dostaneš bídu. Takže bacha.}
+\boxik{red}{\textcolor{white}{\textbf{Poznámka.} Ne že bys nejen nesměl/a jezdit zdravý/á výtahem, ono to taky dost dobře nejde. Bez oprávnění na čipu tě výtah prostě nebude poslouchat a nepřijede ti. Když už je mysteriózně otevřen na patře prázdný, nikdo ti asi nebude fyzicky bránit do něj naskočit a odjet -- ale pokud tě při tom načapá profesor/ka, který/á to nemá rád/a, dostaneš bídu. Takže bacha.}}
 
 \podnadpis{A CO ISIC?}{red}
 Být studentem/studentkou je dřina, když ti to průvodčí nevěří. Za drobnou úplatu ti tu však samozřejmě \textbf{vystavíme studentský průkaz ISIC}. Stačí vyplnit žádost (kterou najdeš na {\bf jaroska.cz} v příslušné sekci, a nebo v kanceláři na stole), \textbf{předat ji paní zástupkyni Sítařové} a na její mail (\textbf{sitarova@jaroska.cz}) pošli reprezentativní \textbf{fotku} o rozlišení minimálně 300 x 360 px. Nechceme fotky naskenované z dokladů (ačkoli normální headshots jsou v pohodě), divně oříznuté, rozmazané nebo jinak nekvalitní.
@@ -360,7 +358,7 @@ Ačkoli nám do toho covid v posledních letech házel vidle, jezdíme i na výl
 
 
 
-\boxik{red}{white}{
+\boxik{red}{
 \begin{minipage}{\linewidth}
   \begin{minipage}{0.32\linewidth}
     \includegraphics[width=\linewidth]{tatry.jpg}
@@ -419,14 +417,14 @@ Stejný termín jako přihlášení obědů má i \textbf{odhlášení obědů}.
 
 
 
-\boxik{blue}{white}{\textbf{Pozor!} Na naší škole platí následující úsporné opatření. Stát normálně dotuje velkou část ceny oběda. Pokud si ho ale opakovaně koupíš a následně nevyzvedneš, budeš muset zaplatit plnou cenu!}
+\boxik{blue}{ \textcolor{white}{\textbf{Pozor!} Na naší škole platí následující úsporné opatření. Stát normálně dotuje velkou část ceny oběda. Pokud si ho ale opakovaně koupíš a následně nevyzvedneš, budeš muset zaplatit plnou cenu!}}
 
 \podnadpis{OBĚDVÁNÍ}{blue}
 Jídelnu máme denně otevřenou \textbf{od 11.20 do 14.00}. V téhle době si o vytyčené přestávce (vedení si na tom dost zakládá) můžeš vyzvednout svůj oběd. Pro bezkonfliktní předání doporučujeme být v \textbf{přezůvkách} (na to jsou kuchařky fakt háklivé). Batoh a bundu si nechej v nových držácích před jídelnou. \textbf{Vstoupíš dveřmi na konci chodby}, vezmeš si tácek, příbor, můžeš přibrat cestou i pití s polévkou. U výdeje se pípneš čipem a po vydání obědu už je čas zmizet ke stolu.
 
 
 
-\boxik{blue}{white}{\textbf{Náš tip.} V případě úplně nejhoršího scénáře, kdy si zapomeneš objednat jídlo a v burze nic není, můžeš zkusit dojít čtvrt hodiny před druhou a hodit na kuchařky psí oči, třeba ti něco dají. A i když se nevyvede s hlavním chodem, většinou ti dovolí vzít si polévku (ale od nás to nemáš!).}
+\boxik{blue}{\textcolor{white}{\textbf{Náš tip.} V případě úplně nejhoršího scénáře, kdy si zapomeneš objednat jídlo a v burze nic není, můžeš zkusit dojít čtvrt hodiny před druhou a hodit na kuchařky psí oči, třeba ti něco dají. A i když se nevyvede s hlavním chodem, většinou ti dovolí vzít si polévku (ale od nás to nemáš!).}}
 
 \podnadpis{ZAPOMENUTÝ ČIP}{blue}
 To se taky stává. Nic se neděje, stačí v průběhu dopoledne \textbf{dojít za paní
@@ -455,12 +453,13 @@ Každý učitel/ka má vymyšlené své způsoby známkování. \textbf{Většin
 
 
 
-\boxik{blue}{white}{\subsection*{EDUPAGE (většinou jen EP)}
+\boxik{blue}{\vspace{-10pt}\textcolor{white}{\subsection*{EDUPAGE (většinou jen EP)}
   \textbf{Naše elektronická třídnice.} Zavedli jsme ji na začátku roku 2020, takže \textbf{prošla doslova zkouškou ohněm} -- a úspěšně (i když to je diskutabilní). Občas na EP nadáváme, ale to snad ani
   nejde jinak. \\
   Faktem je, že tam najdeš \textbf{úplně všechno} -- rozvrhy, suplování, úkoly, hlasování, známky, absence, prezentace, ... A to všechno na kvadrát. \\
-  A taky si tam můžeš psát s učiteli/učitelkami.}
+  A taky si tam můžeš psát s učiteli/učitelkami.}}
 
+\vspace{-10pt}
 \podnadpis{INDIVIDUÁLNÍ STUDIJNÍ PLÁN (též INDIVIDUÁL či ISP)}{blue}
 Když se třeba začneš angažovat v divadle, jiném umění, či sportu, pochopitelně to neznamená, že tě vyhodíme. Na stránkách školy najdeš \textbf{tři lejstra}, která musíš pro získání individuálního studijního plánu vyplnit a předat třídnímu učiteli/učitelce. Ten to předá řediteli, který posoudí oprávněnost nároku.
 ISP nemusí dávat podmínky pro úplně všechny předměty. Bohatě stačí, když se
@@ -468,9 +467,10 @@ s \textbf{jednotlivými kantory/kantorkami domluvíš} na tom, jak se bude klasi
 
 
 
-\boxik{blue}{white}{\subsection*{OMLUVENÍ Z TĚLOCVIKU}
-  To by jen tak nešlo. Nejdřív ti \textbf{doktor/ka musí vydat nějaké lejstro} či potvrzení o tom, že do toho tělocviku prostě nemůžeš chodit, pak ho předáš nám a... jsi omluven/a. Bude tam ještě trocha papírování, ale snažíme se vycházet vstříc (nebudeme, proboha, nikoho nutit cvičit se sádrou). V prváku také podstupujeme \textbf{test plavecké zdatnosti}, kterému se nevyhneš bez uvolnění. Pokud na něj v prváku nepřijdeš, půjdeš ve druháku. Tak důslední jsme. (Pokud nepřijdeš v druháku, přijdeš ve třeťáku. Pokud nepřijdeš ve třeťáku a zvolíš si vodácký kurz, budeš zkoušky provádět na místě před všemi svými spolužáky/spolužačkami.)}
+\boxik{blue}{\vspace{-10pt}\textcolor{white}{\subsection*{OMLUVENÍ Z TĚLOCVIKU}
+  To by jen tak nešlo. Nejdřív ti \textbf{doktor/ka musí vydat nějaké lejstro} či potvrzení o tom, že do toho tělocviku prostě nemůžeš chodit, pak ho předáš nám a... jsi omluven/a. Bude tam ještě trocha papírování, ale snažíme se vycházet vstříc (nebudeme, proboha, nikoho nutit cvičit se sádrou). V prváku také podstupujeme \textbf{test plavecké zdatnosti}, kterému se nevyhneš bez uvolnění. Pokud na něj v prváku nepřijdeš, půjdeš ve druháku. Tak důslední jsme. (Pokud nepřijdeš v druháku, přijdeš ve třeťáku. Pokud nepřijdeš ve třeťáku a zvolíš si vodácký kurz, budeš zkoušky provádět na místě před všemi svými spolužáky/spolužačkami.)}}
 
+\vspace{-10pt}
 \podnadpis{A CO JINAK?}{blue}
 \textcolor{black}{\Kapitan Průvodce prváka} tady bohužel není od toho, aby poskytnul vyčerpávající výčet takovýchhle situací. Pokud nebudeš něco vědět, \textbf{prostě zajdi za třídním/třídní}. Vždycky všecko vyřeší. Ne nadarmo jim říkáme matky / otcové třídní.
 
@@ -566,7 +566,7 @@ Dvakrát do roka si vybraná vysokoškolská pracoviště pozvou středoškolák
 \end{minipage}
 \\
 
-\boxik{yellow}{white}{
+\boxik{yellow}{
   \begin{minipage}{0.27\textwidth}
     \includegraphics[width=\linewidth]{pelisek.jpg}
   \end{minipage}
@@ -607,7 +607,7 @@ Dvakrát do roka si vybraná vysokoškolská pracoviště pozvou středoškolák
 	\includegraphics[width=\linewidth]{coffee_trail.jpg}
 \end{minipage}
 
-\boxik{yellow}{white}{
+\boxik{yellow}{
   \begin{minipage}{0.23\textwidth}
     \vspace*{-8em}
     \includegraphics[width=\linewidth]{friedrich.jpg}
@@ -652,7 +652,7 @@ Dvakrát do roka si vybraná vysokoškolská pracoviště pozvou středoškolák
 	\includegraphics[width=\linewidth]{mymika.jpg}
 \end{minipage}
 
-\boxik{yellow}{white}{
+\boxik{yellow}{
 \begin{minipage}{0.27\textwidth}
   \includegraphics[width=\linewidth]{pole.jpg}
 \end{minipage}

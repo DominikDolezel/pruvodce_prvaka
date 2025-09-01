@@ -10,6 +10,7 @@
 \usepackage{xcolor}
 \usepackage{pagecolor}
 \usepackage{tcolorbox}
+\usepackage{multicol}
 \usetikzlibrary{shapes.geometric, arrows}
 
 \pagenumbering{gobble}
@@ -79,7 +80,13 @@
     \end{tcolorbox}
 
     %5podlazi
-    \begin{tikzpicture}[scale=\scale]
+    \begin{minipage}{0.045\linewidth}
+      \begin{tcolorbox}[colback=white,boxrule=0pt,  grow to right by = 9pt, arc = 8pt, height = 30pt]
+        \vspace*{1pt}\hspace*{-11pt}
+        \centering {\huge\textcolor{darkblue}{5.}}
+      \end{tcolorbox}
+    \end{minipage}\hfill
+    \begin{minipage}{0.94\linewidth}\begin{tikzpicture}[scale=\scale]
         \kvadr{0}{12}{6}{34}{0-0.5}{0}{white!20!darkblue}{}{};
         \kvadr{0}{8}{0}{6}{0-0.5}{0}{white!20!darkblue}{}{};
         \kvadr{12}{29}{15}{34}{0-0.5}{0}{white!20!darkblue}{}{};
@@ -176,10 +183,16 @@
 
 
 
-    \end{tikzpicture}
+    \end{tikzpicture}\end{minipage}
 
     %4podlazi
-    \begin{tikzpicture}[scale=\scale]
+    \begin{minipage}{0.045\linewidth}
+      \begin{tcolorbox}[colback=white,boxrule=0pt,  grow to right by = 9pt, arc = 8pt, height = 30pt]
+        \vspace*{1pt}\hspace*{-11pt}
+        \centering {\huge\textcolor{darkblue}{4.}}
+      \end{tcolorbox}
+    \end{minipage}\hfill
+    \begin{minipage}{0.94\linewidth}\begin{tikzpicture}[scale=\scale]
         \kvadr{0}{12}{6}{34}{0-0.5}{0}{white!20!darkblue}{}{};
         \kvadr{0}{8}{0}{6}{0-0.5}{0}{white!20!darkblue}{}{};
         \kvadr{12}{29}{15}{34}{0-0.5}{0}{white!20!darkblue}{}{};
@@ -188,7 +201,7 @@
         \kvadr{53}{71}{8}{34}{0-0.5}{0}{white!20!darkblue}{}{};
         \kvadr{58}{71}{0}{8}{0-0.5}{0}{white!20!darkblue}{}{};
 
-        \kvadr{0}{8}{24}{34}{0}{2}{orange!100}{\shortstack{404 \\ 2.D}}{};
+        \kvadr{0}{8}{24}{34}{0}{2}{orange!100}{\shortstack{404 \\ 2.D -- M}}{};
 
         %\kvadr{0}{8}{23}{24}{0}{4}{black!30}{}{};
         \kvadr{0}{8}{16}{23}{0}{2}{orange!100}{\shortstack{403 \\ Bi2}}{};
@@ -203,7 +216,7 @@
 
         %\kvadr{8}{9}{26}{34}{0}{4}{black!30}{}{};
 
-        \kvadr{9}{19}{26}{34}{0}{2}{orange!100}{\shortstack{405 \\ 2.A}}{};
+        \kvadr{9}{19}{26}{34}{0}{2}{orange!100}{\shortstack{405 \\ 2.A -- Č}}{};
 
         %\kvadr{19}{20}{26}{34}{0}{4}{black!30}{}{};
 
@@ -221,7 +234,7 @@
 
         %\kvadr{51}{52}{26}{34}{0}{4}{black!30}{}{};
 
-        \kvadr{52}{62}{26}{34}{0}{2}{orange!100}{\shortstack{410 \\ 1.A}}{};
+        \kvadr{52}{62}{26}{34}{0}{2}{orange!100}{\shortstack{410 \\ 1.A -- Z}}{};
 
         %\kvadr{62}{63}{26}{34}{0}{4}{black!30}{}{};
 
@@ -286,15 +299,21 @@
         %\kvadr{63}{71}{23}{24}{0}{4}{black!30}{}{};
         \kvadr{63}{71}{12}{23}{0}{2}{violet!100}{\shortstack{412-415 \\ D, Z, Č, \\ VP, Sv1}}{};
         %\kvadr{63}{71}{7}{8}{0}{4}{black!30}{}{};
-        \kvadr{63}{71}{0}{11}{0}{2}{orange!100}{\shortstack{416 \\ 2.C}}{};
+        \kvadr{63}{71}{0}{11}{0}{2}{orange!100}{\shortstack{416 \\ 2.C -- Sv}}{};
 
         \kvadr{58}{62}{0}{5}{0}{2}{violet!100}{\shortstack{ 417 \\ Sv2}}{};
         %\kvadr{62}{63}{0}{5}{0}{4}{black!30}{}{};
 
-    \end{tikzpicture}
+    \end{tikzpicture}\end{minipage}
 
     %3podlazi
-    \begin{tikzpicture}[scale=\scale]
+    \begin{minipage}{0.045\linewidth}
+      \begin{tcolorbox}[colback=white,boxrule=0pt,  grow to right by = 9pt, arc = 8pt, height = 30pt]
+        \vspace*{1pt}\hspace*{-11pt}
+        \centering {\huge\textcolor{darkblue}{3.}}
+      \end{tcolorbox}
+    \end{minipage}\hfill
+    \begin{minipage}{0.94\linewidth}\begin{tikzpicture}[scale=\scale]
         \kvadr{0}{12}{6}{34}{0-0.5}{0}{white!20!darkblue}{}{};
         \kvadr{0}{8}{0}{6}{0-0.5}{0}{white!20!darkblue}{}{};
         \kvadr{12}{29}{15}{34}{0-0.5}{0}{white!20!darkblue}{}{};
@@ -341,7 +360,7 @@
 
 
 
-        \kvadr{12}{22}{15}{23}{0}{2}{orange!100}{ \shortstack {316 \\ 3.A}}{};
+        \kvadr{12}{22}{15}{23}{0}{2}{orange!100}{ \shortstack {316 \\ 3.A -- F}}{};
 
         %\kvadr{22}{23}{15}{23}{0}{4}{black!30}{}{};
 
@@ -407,10 +426,16 @@
         \kvadr{63}{71}{0}{7}{0}{2}{orange!100}{\shortstack{313 \\ T1}}{};
 
 
-    \end{tikzpicture}
+    \end{tikzpicture}\end{minipage}
 
     %2podlazi
-    \begin{tikzpicture}[scale=\scale]
+    \begin{minipage}{0.045\linewidth}
+      \begin{tcolorbox}[colback=white,boxrule=0pt,  grow to right by = 9pt, arc = 8pt, height = 30pt]
+        \vspace*{1pt}\hspace*{-11pt}
+        \centering {\huge\textcolor{darkblue}{2.}}
+      \end{tcolorbox}
+    \end{minipage}\hfill
+    \begin{minipage}{0.94\linewidth}\begin{tikzpicture}[scale=\scale]
         \kvadr{0}{12}{6}{34}{0-0.5}{0}{white!20!darkblue}{}{};
         \kvadr{0}{8}{0}{6}{0-0.5}{0}{white!20!darkblue}{}{};
         \kvadr{12}{29}{15}{34}{0-0.5}{0}{white!20!darkblue}{}{};
@@ -523,10 +548,16 @@
         \kvadr{58}{62}{0}{5}{0}{2}{grey}{\shortstack{216 \\ Skl. chem.}}{};
         %\kvadr{62}{63}{0}{5}{0}{4}{black!30}{}{};
 
-    \end{tikzpicture}
+    \end{tikzpicture}\end{minipage}
 
     %1podlazi (telocvicna)
-    \begin{tikzpicture}[scale=\scale]
+    \begin{minipage}{0.045\linewidth}
+      \begin{tcolorbox}[colback=white,boxrule=0pt,  grow to right by = 9pt, arc = 8pt, height = 30pt]
+        \vspace*{1pt}\hspace*{-11pt}
+        \centering {\huge\textcolor{darkblue}{1.}}
+      \end{tcolorbox}
+    \end{minipage}\hfill
+    \begin{minipage}{0.94\linewidth}\begin{tikzpicture}[scale=\scale]
         \kvadr{0}{12}{6}{34}{0-0.5}{0}{white!20!darkblue}{}{};
         \kvadr{12}{29}{15}{34}{0-0.5}{0}{white!20!darkblue}{}{};
         \kvadr{29}{41}{23}{34}{0-0.5}{0}{white!20!darkblue}{}{};
@@ -601,7 +632,7 @@
 
         \kvadr{57}{71}{0}{5}{0-3}{0-1}{grey}{}{};
 
-    \end{tikzpicture}\\
+    \end{tikzpicture}\end{minipage}\\
     }
     \vfill
     \noindent\textcolor{white}{
